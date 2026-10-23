@@ -1,0 +1,6118 @@
+{
+  "source_file": "unit_economy_Dai_774_mond_oktyabr_33__33.xlsx",
+  "description": "Workbook export preserving cell values, formulas, cached results, sheet layout and formula errors for implementation in an AI-built unit-economics website.",
+  "calculation_note": "Excel formulas are preserved as source formulas, not automatically translated into website code. Implement formulas in a calculation engine and recalculate from input values; cached values are included only as reference.",
+  "sheets": [
+    {
+      "name": "UNIT по товарам",
+      "max_row": 17,
+      "max_column": 26,
+      "merged_cells": [
+        "O2:Y2",
+        "A1:Y1",
+        "A17:C17",
+        "D2:N2",
+        "A2:C2"
+      ],
+      "cells": [
+        {
+          "cell": "A1",
+          "row": 1,
+          "column": 1,
+          "column_letter": "A",
+          "value": "ЮНИТ-ЭКОНОМИКА МАГАЗИНА  Склад: Тула (кластер Москва) | Тариф логистики и комиссия: авто до/свыше 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A2",
+          "row": 2,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Синий фон — вводи вручную",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D2",
+          "row": 2,
+          "column": 4,
+          "column_letter": "D",
+          "value": "Серый фон — формулы (не трогай)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "O2",
+          "row": 2,
+          "column": 15,
+          "column_letter": "O",
+          "value": "Зелёный = прибыль ✓   Красный = убыток ✗",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A3",
+          "row": 3,
+          "column": 1,
+          "column_letter": "A",
+          "value": "№",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B3",
+          "row": 3,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Название товара",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C3",
+          "row": 3,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Артикул",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D3",
+          "row": 3,
+          "column": 4,
+          "column_letter": "D",
+          "value": "Цена\nпродажи, ₽\nпредельная",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "E3",
+          "row": 3,
+          "column": 5,
+          "column_letter": "E",
+          "value": "Цена\nреализации для налога",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "F3",
+          "row": 3,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Закупка /\nсебест, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G3",
+          "row": 3,
+          "column": 7,
+          "column_letter": "G",
+          "value": "Литраж,\nл",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "column_letter": "H",
+          "value": "Тариф\nлог, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "I3",
+          "row": 3,
+          "column": 9,
+          "column_letter": "I",
+          "value": "Посл.\nмиля, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "J3",
+          "row": 3,
+          "column": 10,
+          "column_letter": "J",
+          "value": "Эквай-\nринг, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "K3",
+          "row": 3,
+          "column": 11,
+          "column_letter": "K",
+          "value": "Кросс-\nдок, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "L3",
+          "row": 3,
+          "column": 12,
+          "column_letter": "L",
+          "value": "ДДВ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "M3",
+          "row": 3,
+          "column": 13,
+          "column_letter": "M",
+          "value": "ЛП",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "N3",
+          "row": 3,
+          "column": 14,
+          "column_letter": "N",
+          "value": "Логист.\nитого, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "O3",
+          "row": 3,
+          "column": 15,
+          "column_letter": "O",
+          "value": "Комис.\nOzon, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "P3",
+          "row": 3,
+          "column": 16,
+          "column_letter": "P",
+          "value": "ФФ, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "Q3",
+          "row": 3,
+          "column": 17,
+          "column_letter": "Q",
+          "value": "Реклама,\n%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "R3",
+          "row": 3,
+          "column": 18,
+          "column_letter": "R",
+          "value": "Реклама,\n₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "S3",
+          "row": 3,
+          "column": 19,
+          "column_letter": "S",
+          "value": "Налог, ₽/\n11%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "T3",
+          "row": 3,
+          "column": 20,
+          "column_letter": "T",
+          "value": "Форс-\nмажор, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "U3",
+          "row": 3,
+          "column": 21,
+          "column_letter": "U",
+          "value": "ИТОГО\nрасходов",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "V3",
+          "row": 3,
+          "column": 22,
+          "column_letter": "V",
+          "value": "ПРИБЫЛЬ\nед, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "W3",
+          "row": 3,
+          "column": 23,
+          "column_letter": "W",
+          "value": "ROI\n%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "X3",
+          "row": 3,
+          "column": 24,
+          "column_letter": "X",
+          "value": "ДРР\n%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "Y3",
+          "row": 3,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "Маржа\n%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "Z3",
+          "row": 3,
+          "column": 26,
+          "column_letter": "Z",
+          "value": "Скидка\nOzon, %",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A4",
+          "row": 4,
+          "column": 1,
+          "column_letter": "A",
+          "value": 1,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B4",
+          "row": 4,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Китайская чудо мазь зеленая",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C4",
+          "row": 4,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN3493060723",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D4",
+          "row": 4,
+          "column": 4,
+          "column_letter": "D",
+          "value": 240,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E4",
+          "row": 4,
+          "column": 5,
+          "column_letter": "E",
+          "value": 216,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F4",
+          "row": 4,
+          "column": 6,
+          "column_letter": "F",
+          "value": 40,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G4",
+          "row": 4,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.29,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G4=\"\",\"\",IF(D4>300,IF(G4<=0.2,Тарифы!$D$3,IF(G4<=0.4,Тарифы!$D$4,IF(G4<=0.6,Тарифы!$D$5,IF(G4<=0.8,Тарифы!$D$6,IF(G4<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G4<=0.2,Тарифы!$B$3,IF(G4<=0.4,Тарифы!$B$4,IF(G4<=0.6,Тарифы!$B$5,IF(G4<=0.8,Тарифы!$B$6,IF(G4<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G4=\"\",\"\",IF(D4>300,IF(G4<=0.2,Тарифы!$D$3,IF(G4<=0.4,Тарифы!$D$4,IF(G4<=0.6,Тарифы!$D$5,IF(G4<=0.8,Тарифы!$D$6,IF(G4<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G4<=0.2,Тарифы!$B$3,IF(G4<=0.4,Тарифы!$B$4,IF(G4<=0.6,Тарифы!$B$5,IF(G4<=0.8,Тарифы!$B$6,IF(G4<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 22
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D4=\"\",\"\",D4*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",D4*Тарифы!$B$12)",
+          "cached_result": 11.76
+        },
+        {
+          "cell": "J4",
+          "row": 4,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D4=\"\",\"\",D4*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",D4*Тарифы!$B$13)",
+          "cached_result": 3.5999999999999996
+        },
+        {
+          "cell": "K4",
+          "row": 4,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D4=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L4",
+          "row": 4,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D4=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C4,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C4,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 7.913167370526784
+        },
+        {
+          "cell": "M4",
+          "row": 4,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D4=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C4,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C4,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.14432836926724457
+        },
+        {
+          "cell": "N4",
+          "row": 4,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D4=\"\",\"\",H4+I4+J4+K4+L4+M4)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",H4+I4+J4+K4+L4+M4)",
+          "cached_result": 47.049365434785166
+        },
+        {
+          "cell": "O4",
+          "row": 4,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D4=\"\",\"\",IF(D4>300,D4*Тарифы!$B$65,D4*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",IF(D4>300,D4*Тарифы!$B$65,D4*Тарифы!$B$64))",
+          "cached_result": 55.2
+        },
+        {
+          "cell": "P4",
+          "row": 4,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q4",
+          "row": 4,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.16,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R4",
+          "row": 4,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D4=\"\",\"\",D4*Q4)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",D4*Q4)",
+          "cached_result": 38.4
+        },
+        {
+          "cell": "S4",
+          "row": 4,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E4=\"\",\"\",E4*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E4=\"\",\"\",E4*Тарифы!$B$20)",
+          "cached_result": 23.76
+        },
+        {
+          "cell": "T4",
+          "row": 4,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D4=\"\",\"\",D4*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",D4*Тарифы!$B$22)",
+          "cached_result": 2.4
+        },
+        {
+          "cell": "U4",
+          "row": 4,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D4=\"\",\"\",N4+O4+P4+R4+S4+T4+F4)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",N4+O4+P4+R4+S4+T4+F4)",
+          "cached_result": 216.80936543478518
+        },
+        {
+          "cell": "V4",
+          "row": 4,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D4=\"\",\"\",D4-U4)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D4=\"\",\"\",D4-U4)",
+          "cached_result": 23.190634565214822
+        },
+        {
+          "cell": "W4",
+          "row": 4,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D4=\"\",F4=\"\",F4=0),\"\",( D4-U4)/F4)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D4=\"\",F4=\"\",F4=0),\"\",( D4-U4)/F4)",
+          "cached_result": 0.5797658641303706
+        },
+        {
+          "cell": "X4",
+          "row": 4,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D4=\"\",D4=0),\"\",R4/D4)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D4=\"\",D4=0),\"\",R4/D4)",
+          "cached_result": 0.16
+        },
+        {
+          "cell": "Y4",
+          "row": 4,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D4=\"\",D4=0),\"\",(D4-U4)/D4)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D4=\"\",D4=0),\"\",(D4-U4)/D4)",
+          "cached_result": 0.09662764402172842
+        },
+        {
+          "cell": "Z4",
+          "row": 4,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0.15,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A5",
+          "row": 5,
+          "column": 1,
+          "column_letter": "A",
+          "value": 2,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B5",
+          "row": 5,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Тушь Hyper Curl",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C5",
+          "row": 5,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN4497059559",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D5",
+          "row": 5,
+          "column": 4,
+          "column_letter": "D",
+          "value": 275,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E5",
+          "row": 5,
+          "column": 5,
+          "column_letter": "E",
+          "value": 228,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F5",
+          "row": 5,
+          "column": 6,
+          "column_letter": "F",
+          "value": 50,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G5",
+          "row": 5,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.1,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G5=\"\",\"\",IF(D5>300,IF(G5<=0.2,Тарифы!$D$3,IF(G5<=0.4,Тарифы!$D$4,IF(G5<=0.6,Тарифы!$D$5,IF(G5<=0.8,Тарифы!$D$6,IF(G5<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G5<=0.2,Тарифы!$B$3,IF(G5<=0.4,Тарифы!$B$4,IF(G5<=0.6,Тарифы!$B$5,IF(G5<=0.8,Тарифы!$B$6,IF(G5<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G5=\"\",\"\",IF(D5>300,IF(G5<=0.2,Тарифы!$D$3,IF(G5<=0.4,Тарифы!$D$4,IF(G5<=0.6,Тарифы!$D$5,IF(G5<=0.8,Тарифы!$D$6,IF(G5<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G5<=0.2,Тарифы!$B$3,IF(G5<=0.4,Тарифы!$B$4,IF(G5<=0.6,Тарифы!$B$5,IF(G5<=0.8,Тарифы!$B$6,IF(G5<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D5=\"\",\"\",D5*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",D5*Тарифы!$B$12)",
+          "cached_result": 13.475
+        },
+        {
+          "cell": "J5",
+          "row": 5,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D5=\"\",\"\",D5*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",D5*Тарифы!$B$13)",
+          "cached_result": 4.125
+        },
+        {
+          "cell": "K5",
+          "row": 5,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D5=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L5",
+          "row": 5,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D5=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C5,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C5,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 6.954878626406158
+        },
+        {
+          "cell": "M5",
+          "row": 5,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D5=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C5,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C5,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.04410894020130254
+        },
+        {
+          "cell": "N5",
+          "row": 5,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D5=\"\",\"\",H5+I5+J5+K5+L5+M5)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",H5+I5+J5+K5+L5+M5)",
+          "cached_result": 46.2308572615986
+        },
+        {
+          "cell": "O5",
+          "row": 5,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D5=\"\",\"\",IF(D5>300,D5*Тарифы!$B$65,D5*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",IF(D5>300,D5*Тарифы!$B$65,D5*Тарифы!$B$64))",
+          "cached_result": 63.25
+        },
+        {
+          "cell": "P5",
+          "row": 5,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q5",
+          "row": 5,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.16,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R5",
+          "row": 5,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D5=\"\",\"\",D5*Q5)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",D5*Q5)",
+          "cached_result": 44
+        },
+        {
+          "cell": "S5",
+          "row": 5,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E5=\"\",\"\",E5*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E5=\"\",\"\",E5*Тарифы!$B$20)",
+          "cached_result": 25.080000000000002
+        },
+        {
+          "cell": "T5",
+          "row": 5,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D5=\"\",\"\",D5*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",D5*Тарифы!$B$22)",
+          "cached_result": 2.75
+        },
+        {
+          "cell": "U5",
+          "row": 5,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D5=\"\",\"\",N5+O5+P5+R5+S5+T5+F5)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",N5+O5+P5+R5+S5+T5+F5)",
+          "cached_result": 241.3108572615986
+        },
+        {
+          "cell": "V5",
+          "row": 5,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D5=\"\",\"\",D5-U5)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D5=\"\",\"\",D5-U5)",
+          "cached_result": 33.68914273840139
+        },
+        {
+          "cell": "W5",
+          "row": 5,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D5=\"\",F5=\"\",F5=0),\"\",( D5-U5)/F5)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D5=\"\",F5=\"\",F5=0),\"\",( D5-U5)/F5)",
+          "cached_result": 0.6737828547680277
+        },
+        {
+          "cell": "X5",
+          "row": 5,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D5=\"\",D5=0),\"\",R5/D5)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D5=\"\",D5=0),\"\",R5/D5)",
+          "cached_result": 0.16
+        },
+        {
+          "cell": "Y5",
+          "row": 5,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D5=\"\",D5=0),\"\",(D5-U5)/D5)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D5=\"\",D5=0),\"\",(D5-U5)/D5)",
+          "cached_result": 0.12250597359418686
+        },
+        {
+          "cell": "Z5",
+          "row": 5,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A6",
+          "row": 6,
+          "column": 1,
+          "column_letter": "A",
+          "value": 4,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B6",
+          "row": 6,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Крем роллер Sadoer золотой",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C6",
+          "row": 6,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN3492926989",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D6",
+          "row": 6,
+          "column": 4,
+          "column_letter": "D",
+          "value": 280,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F6",
+          "row": 6,
+          "column": 6,
+          "column_letter": "F",
+          "value": 63,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G6",
+          "row": 6,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.18,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H6",
+          "row": 6,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G6=\"\",\"\",IF(D6>300,IF(G6<=0.2,Тарифы!$D$3,IF(G6<=0.4,Тарифы!$D$4,IF(G6<=0.6,Тарифы!$D$5,IF(G6<=0.8,Тарифы!$D$6,IF(G6<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G6<=0.2,Тарифы!$B$3,IF(G6<=0.4,Тарифы!$B$4,IF(G6<=0.6,Тарифы!$B$5,IF(G6<=0.8,Тарифы!$B$6,IF(G6<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G6=\"\",\"\",IF(D6>300,IF(G6<=0.2,Тарифы!$D$3,IF(G6<=0.4,Тарифы!$D$4,IF(G6<=0.6,Тарифы!$D$5,IF(G6<=0.8,Тарифы!$D$6,IF(G6<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G6<=0.2,Тарифы!$B$3,IF(G6<=0.4,Тарифы!$B$4,IF(G6<=0.6,Тарифы!$B$5,IF(G6<=0.8,Тарифы!$B$6,IF(G6<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D6=\"\",\"\",D6*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",D6*Тарифы!$B$12)",
+          "cached_result": 13.72
+        },
+        {
+          "cell": "J6",
+          "row": 6,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D6=\"\",\"\",D6*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",D6*Тарифы!$B$13)",
+          "cached_result": 4.2
+        },
+        {
+          "cell": "K6",
+          "row": 6,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D6=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L6",
+          "row": 6,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D6=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C6,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C6,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 8.358244274809161
+        },
+        {
+          "cell": "M6",
+          "row": 6,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D6=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C6,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C6,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.1297709923664122
+        },
+        {
+          "cell": "N6",
+          "row": 6,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D6=\"\",\"\",H6+I6+J6+K6+L6+M6)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",H6+I6+J6+K6+L6+M6)",
+          "cached_result": 48.03988496216671
+        },
+        {
+          "cell": "O6",
+          "row": 6,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D6=\"\",\"\",IF(D6>300,D6*Тарифы!$B$65,D6*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",IF(D6>300,D6*Тарифы!$B$65,D6*Тарифы!$B$64))",
+          "cached_result": 64.4
+        },
+        {
+          "cell": "P6",
+          "row": 6,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q6",
+          "row": 6,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.1,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R6",
+          "row": 6,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D6=\"\",\"\",D6*Q6)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",D6*Q6)",
+          "cached_result": 28
+        },
+        {
+          "cell": "S6",
+          "row": 6,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E6=\"\",\"\",E6*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E6=\"\",\"\",E6*Тарифы!$B$20)",
+          "cached_result": null
+        },
+        {
+          "cell": "T6",
+          "row": 6,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D6=\"\",\"\",D6*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",D6*Тарифы!$B$22)",
+          "cached_result": 2.8000000000000003
+        },
+        {
+          "cell": "U6",
+          "row": 6,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D6=\"\",\"\",N6+O6+P6+R6+S6+T6+F6)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",N6+O6+P6+R6+S6+T6+F6)",
+          "cached_result": "#VALUE!",
+          "cached_error": "#VALUE!"
+        },
+        {
+          "cell": "V6",
+          "row": 6,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D6=\"\",\"\",D6-U6)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D6=\"\",\"\",D6-U6)",
+          "cached_result": "#VALUE!",
+          "cached_error": "#VALUE!"
+        },
+        {
+          "cell": "W6",
+          "row": 6,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D6=\"\",F6=\"\",F6=0),\"\",( D6-U6)/F6)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D6=\"\",F6=\"\",F6=0),\"\",( D6-U6)/F6)",
+          "cached_result": "#VALUE!",
+          "cached_error": "#VALUE!"
+        },
+        {
+          "cell": "X6",
+          "row": 6,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D6=\"\",D6=0),\"\",R6/D6)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D6=\"\",D6=0),\"\",R6/D6)",
+          "cached_result": 0.1
+        },
+        {
+          "cell": "Y6",
+          "row": 6,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D6=\"\",D6=0),\"\",(D6-U6)/D6)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D6=\"\",D6=0),\"\",(D6-U6)/D6)",
+          "cached_result": "#VALUE!",
+          "cached_error": "#VALUE!"
+        },
+        {
+          "cell": "Z6",
+          "row": 6,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "column_letter": "A",
+          "value": 5,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Чудо мазь от кожных заболеваний серебро",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C7",
+          "row": 7,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN4664730833",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "column_letter": "D",
+          "value": 272,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E7",
+          "row": 7,
+          "column": 5,
+          "column_letter": "E",
+          "value": 228,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F7",
+          "row": 7,
+          "column": 6,
+          "column_letter": "F",
+          "value": 45,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G7",
+          "row": 7,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.06,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H7",
+          "row": 7,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G7=\"\",\"\",IF(D7>300,IF(G7<=0.2,Тарифы!$D$3,IF(G7<=0.4,Тарифы!$D$4,IF(G7<=0.6,Тарифы!$D$5,IF(G7<=0.8,Тарифы!$D$6,IF(G7<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G7<=0.2,Тарифы!$B$3,IF(G7<=0.4,Тарифы!$B$4,IF(G7<=0.6,Тарифы!$B$5,IF(G7<=0.8,Тарифы!$B$6,IF(G7<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G7=\"\",\"\",IF(D7>300,IF(G7<=0.2,Тарифы!$D$3,IF(G7<=0.4,Тарифы!$D$4,IF(G7<=0.6,Тарифы!$D$5,IF(G7<=0.8,Тарифы!$D$6,IF(G7<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G7<=0.2,Тарифы!$B$3,IF(G7<=0.4,Тарифы!$B$4,IF(G7<=0.6,Тарифы!$B$5,IF(G7<=0.8,Тарифы!$B$6,IF(G7<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D7=\"\",\"\",D7*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",D7*Тарифы!$B$12)",
+          "cached_result": 13.328000000000001
+        },
+        {
+          "cell": "J7",
+          "row": 7,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D7=\"\",\"\",D7*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",D7*Тарифы!$B$13)",
+          "cached_result": 4.08
+        },
+        {
+          "cell": "K7",
+          "row": 7,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D7=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L7",
+          "row": 7,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D7=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C7,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C7,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 8.13227607814228
+        },
+        {
+          "cell": "M7",
+          "row": 7,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D7=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C7,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C7,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.10541835606339846
+        },
+        {
+          "cell": "N7",
+          "row": 7,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D7=\"\",\"\",H7+I7+J7+K7+L7+M7)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",H7+I7+J7+K7+L7+M7)",
+          "cached_result": 47.27756412919682
+        },
+        {
+          "cell": "O7",
+          "row": 7,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D7=\"\",\"\",IF(D7>300,D7*Тарифы!$B$65,D7*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",IF(D7>300,D7*Тарифы!$B$65,D7*Тарифы!$B$64))",
+          "cached_result": 62.56
+        },
+        {
+          "cell": "P7",
+          "row": 7,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q7",
+          "row": 7,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.18,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R7",
+          "row": 7,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D7=\"\",\"\",D7*Q7)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",D7*Q7)",
+          "cached_result": 48.96
+        },
+        {
+          "cell": "S7",
+          "row": 7,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E7=\"\",\"\",E7*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E7=\"\",\"\",E7*Тарифы!$B$20)",
+          "cached_result": 25.080000000000002
+        },
+        {
+          "cell": "T7",
+          "row": 7,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D7=\"\",\"\",D7*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",D7*Тарифы!$B$22)",
+          "cached_result": 2.72
+        },
+        {
+          "cell": "U7",
+          "row": 7,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D7=\"\",\"\",N7+O7+P7+R7+S7+T7+F7)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",N7+O7+P7+R7+S7+T7+F7)",
+          "cached_result": 241.59756412919683
+        },
+        {
+          "cell": "V7",
+          "row": 7,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D7=\"\",\"\",D7-U7)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D7=\"\",\"\",D7-U7)",
+          "cached_result": 30.402435870803174
+        },
+        {
+          "cell": "W7",
+          "row": 7,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D7=\"\",F7=\"\",F7=0),\"\",( D7-U7)/F7)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D7=\"\",F7=\"\",F7=0),\"\",( D7-U7)/F7)",
+          "cached_result": 0.6756096860178483
+        },
+        {
+          "cell": "X7",
+          "row": 7,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D7=\"\",D7=0),\"\",R7/D7)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D7=\"\",D7=0),\"\",R7/D7)",
+          "cached_result": 0.18
+        },
+        {
+          "cell": "Y7",
+          "row": 7,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D7=\"\",D7=0),\"\",(D7-U7)/D7)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D7=\"\",D7=0),\"\",(D7-U7)/D7)",
+          "cached_result": 0.11177366128971755
+        },
+        {
+          "cell": "Z7",
+          "row": 7,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A8",
+          "row": 8,
+          "column": 1,
+          "column_letter": "A",
+          "value": 6,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B8",
+          "row": 8,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Крем от геморроя Sumifun голубой",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C8",
+          "row": 8,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN4884368183",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D8",
+          "row": 8,
+          "column": 4,
+          "column_letter": "D",
+          "value": 253,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E8",
+          "row": 8,
+          "column": 5,
+          "column_letter": "E",
+          "value": 212,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F8",
+          "row": 8,
+          "column": 6,
+          "column_letter": "F",
+          "value": 43,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G8",
+          "row": 8,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.06,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H8",
+          "row": 8,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G8=\"\",\"\",IF(D8>300,IF(G8<=0.2,Тарифы!$D$3,IF(G8<=0.4,Тарифы!$D$4,IF(G8<=0.6,Тарифы!$D$5,IF(G8<=0.8,Тарифы!$D$6,IF(G8<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G8<=0.2,Тарифы!$B$3,IF(G8<=0.4,Тарифы!$B$4,IF(G8<=0.6,Тарифы!$B$5,IF(G8<=0.8,Тарифы!$B$6,IF(G8<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G8=\"\",\"\",IF(D8>300,IF(G8<=0.2,Тарифы!$D$3,IF(G8<=0.4,Тарифы!$D$4,IF(G8<=0.6,Тарифы!$D$5,IF(G8<=0.8,Тарифы!$D$6,IF(G8<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G8<=0.2,Тарифы!$B$3,IF(G8<=0.4,Тарифы!$B$4,IF(G8<=0.6,Тарифы!$B$5,IF(G8<=0.8,Тарифы!$B$6,IF(G8<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D8=\"\",\"\",D8*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",D8*Тарифы!$B$12)",
+          "cached_result": 12.397
+        },
+        {
+          "cell": "J8",
+          "row": 8,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D8=\"\",\"\",D8*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",D8*Тарифы!$B$13)",
+          "cached_result": 3.795
+        },
+        {
+          "cell": "K8",
+          "row": 8,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D8=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L8",
+          "row": 8,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D8=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C8,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C8,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 7.3267605118829975
+        },
+        {
+          "cell": "M8",
+          "row": 8,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D8=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C8,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C8,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.05776965265082267
+        },
+        {
+          "cell": "N8",
+          "row": 8,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D8=\"\",\"\",H8+I8+J8+K8+L8+M8)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",H8+I8+J8+K8+L8+M8)",
+          "cached_result": 45.20839985952495
+        },
+        {
+          "cell": "O8",
+          "row": 8,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D8=\"\",\"\",IF(D8>300,D8*Тарифы!$B$65,D8*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",IF(D8>300,D8*Тарифы!$B$65,D8*Тарифы!$B$64))",
+          "cached_result": 58.190000000000005
+        },
+        {
+          "cell": "P8",
+          "row": 8,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q8",
+          "row": 8,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.18,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R8",
+          "row": 8,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D8=\"\",\"\",D8*Q8)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",D8*Q8)",
+          "cached_result": 45.54
+        },
+        {
+          "cell": "S8",
+          "row": 8,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E8=\"\",\"\",E8*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E8=\"\",\"\",E8*Тарифы!$B$20)",
+          "cached_result": 23.32
+        },
+        {
+          "cell": "T8",
+          "row": 8,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D8=\"\",\"\",D8*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",D8*Тарифы!$B$22)",
+          "cached_result": 2.5300000000000002
+        },
+        {
+          "cell": "U8",
+          "row": 8,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D8=\"\",\"\",N8+O8+P8+R8+S8+T8+F8)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",N8+O8+P8+R8+S8+T8+F8)",
+          "cached_result": 227.78839985952496
+        },
+        {
+          "cell": "V8",
+          "row": 8,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D8=\"\",\"\",D8-U8)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D8=\"\",\"\",D8-U8)",
+          "cached_result": 25.211600140475042
+        },
+        {
+          "cell": "W8",
+          "row": 8,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D8=\"\",F8=\"\",F8=0),\"\",( D8-U8)/F8)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D8=\"\",F8=\"\",F8=0),\"\",( D8-U8)/F8)",
+          "cached_result": 0.5863162823366289
+        },
+        {
+          "cell": "X8",
+          "row": 8,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D8=\"\",D8=0),\"\",R8/D8)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D8=\"\",D8=0),\"\",R8/D8)",
+          "cached_result": 0.18
+        },
+        {
+          "cell": "Y8",
+          "row": 8,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D8=\"\",D8=0),\"\",(D8-U8)/D8)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D8=\"\",D8=0),\"\",(D8-U8)/D8)",
+          "cached_result": 0.09965059344061282
+        },
+        {
+          "cell": "Z8",
+          "row": 8,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A9",
+          "row": 9,
+          "column": 1,
+          "column_letter": "A",
+          "value": 13,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B9",
+          "row": 9,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Крем от экземы, псориаза SumiFun",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C9",
+          "row": 9,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN4884063931",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D9",
+          "row": 9,
+          "column": 4,
+          "column_letter": "D",
+          "value": 230,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E9",
+          "row": 9,
+          "column": 5,
+          "column_letter": "E",
+          "value": 193,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F9",
+          "row": 9,
+          "column": 6,
+          "column_letter": "F",
+          "value": 40.8,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G9",
+          "row": 9,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.13,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H9",
+          "row": 9,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G9=\"\",\"\",IF(D9>300,IF(G9<=0.2,Тарифы!$D$3,IF(G9<=0.4,Тарифы!$D$4,IF(G9<=0.6,Тарифы!$D$5,IF(G9<=0.8,Тарифы!$D$6,IF(G9<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G9<=0.2,Тарифы!$B$3,IF(G9<=0.4,Тарифы!$B$4,IF(G9<=0.6,Тарифы!$B$5,IF(G9<=0.8,Тарифы!$B$6,IF(G9<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G9=\"\",\"\",IF(D9>300,IF(G9<=0.2,Тарифы!$D$3,IF(G9<=0.4,Тарифы!$D$4,IF(G9<=0.6,Тарифы!$D$5,IF(G9<=0.8,Тарифы!$D$6,IF(G9<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G9<=0.2,Тарифы!$B$3,IF(G9<=0.4,Тарифы!$B$4,IF(G9<=0.6,Тарифы!$B$5,IF(G9<=0.8,Тарифы!$B$6,IF(G9<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I9",
+          "row": 9,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D9=\"\",\"\",D9*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",D9*Тарифы!$B$12)",
+          "cached_result": 11.27
+        },
+        {
+          "cell": "J9",
+          "row": 9,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D9=\"\",\"\",D9*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",D9*Тарифы!$B$13)",
+          "cached_result": 3.4499999999999997
+        },
+        {
+          "cell": "K9",
+          "row": 9,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D9=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L9",
+          "row": 9,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D9=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C9,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C9,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 7.514856115107914
+        },
+        {
+          "cell": "M9",
+          "row": 9,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D9=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C9,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C9,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.08393285371702638
+        },
+        {
+          "cell": "N9",
+          "row": 9,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D9=\"\",\"\",H9+I9+J9+K9+L9+M9)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",H9+I9+J9+K9+L9+M9)",
+          "cached_result": 43.95065866381608
+        },
+        {
+          "cell": "O9",
+          "row": 9,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D9=\"\",\"\",IF(D9>300,D9*Тарифы!$B$65,D9*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",IF(D9>300,D9*Тарифы!$B$65,D9*Тарифы!$B$64))",
+          "cached_result": 52.900000000000006
+        },
+        {
+          "cell": "P9",
+          "row": 9,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q9",
+          "row": 9,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.18,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R9",
+          "row": 9,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D9=\"\",\"\",D9*Q9)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",D9*Q9)",
+          "cached_result": 41.4
+        },
+        {
+          "cell": "S9",
+          "row": 9,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E9=\"\",\"\",E9*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E9=\"\",\"\",E9*Тарифы!$B$20)",
+          "cached_result": 21.23
+        },
+        {
+          "cell": "T9",
+          "row": 9,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D9=\"\",\"\",D9*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",D9*Тарифы!$B$22)",
+          "cached_result": 2.3000000000000003
+        },
+        {
+          "cell": "U9",
+          "row": 9,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D9=\"\",\"\",N9+O9+P9+R9+S9+T9+F9)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",N9+O9+P9+R9+S9+T9+F9)",
+          "cached_result": 212.5806586638161
+        },
+        {
+          "cell": "V9",
+          "row": 9,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D9=\"\",\"\",D9-U9)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D9=\"\",\"\",D9-U9)",
+          "cached_result": 17.41934133618389
+        },
+        {
+          "cell": "W9",
+          "row": 9,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D9=\"\",F9=\"\",F9=0),\"\",( D9-U9)/F9)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D9=\"\",F9=\"\",F9=0),\"\",( D9-U9)/F9)",
+          "cached_result": 0.42694464059274245
+        },
+        {
+          "cell": "X9",
+          "row": 9,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D9=\"\",D9=0),\"\",R9/D9)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D9=\"\",D9=0),\"\",R9/D9)",
+          "cached_result": 0.18
+        },
+        {
+          "cell": "Y9",
+          "row": 9,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D9=\"\",D9=0),\"\",(D9-U9)/D9)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D9=\"\",D9=0),\"\",(D9-U9)/D9)",
+          "cached_result": 0.07573626667906039
+        },
+        {
+          "cell": "Z9",
+          "row": 9,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A10",
+          "row": 10,
+          "column": 1,
+          "column_letter": "A",
+          "value": 14,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B10",
+          "row": 10,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Мазь тигр банка",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C10",
+          "row": 10,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN4946011280",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D10",
+          "row": 10,
+          "column": 4,
+          "column_letter": "D",
+          "value": 260,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E10",
+          "row": 10,
+          "column": 5,
+          "column_letter": "E",
+          "value": 218,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F10",
+          "row": 10,
+          "column": 6,
+          "column_letter": "F",
+          "value": 51,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G10",
+          "row": 10,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.13,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H10",
+          "row": 10,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G10=\"\",\"\",IF(D10>300,IF(G10<=0.2,Тарифы!$D$3,IF(G10<=0.4,Тарифы!$D$4,IF(G10<=0.6,Тарифы!$D$5,IF(G10<=0.8,Тарифы!$D$6,IF(G10<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G10<=0.2,Тарифы!$B$3,IF(G10<=0.4,Тарифы!$B$4,IF(G10<=0.6,Тарифы!$B$5,IF(G10<=0.8,Тарифы!$B$6,IF(G10<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G10=\"\",\"\",IF(D10>300,IF(G10<=0.2,Тарифы!$D$3,IF(G10<=0.4,Тарифы!$D$4,IF(G10<=0.6,Тарифы!$D$5,IF(G10<=0.8,Тарифы!$D$6,IF(G10<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G10<=0.2,Тарифы!$B$3,IF(G10<=0.4,Тарифы!$B$4,IF(G10<=0.6,Тарифы!$B$5,IF(G10<=0.8,Тарифы!$B$6,IF(G10<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I10",
+          "row": 10,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D10=\"\",\"\",D10*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",D10*Тарифы!$B$12)",
+          "cached_result": 12.74
+        },
+        {
+          "cell": "J10",
+          "row": 10,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D10=\"\",\"\",D10*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",D10*Тарифы!$B$13)",
+          "cached_result": 3.9
+        },
+        {
+          "cell": "K10",
+          "row": 10,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D10=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L10",
+          "row": 10,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D10=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C10,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C10,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 8.090261153427639
+        },
+        {
+          "cell": "M10",
+          "row": 10,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D10=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C10,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C10,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.2100108813928183
+        },
+        {
+          "cell": "N10",
+          "row": 10,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D10=\"\",\"\",H10+I10+J10+K10+L10+M10)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",H10+I10+J10+K10+L10+M10)",
+          "cached_result": 46.5721417298116
+        },
+        {
+          "cell": "O10",
+          "row": 10,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D10=\"\",\"\",IF(D10>300,D10*Тарифы!$B$65,D10*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",IF(D10>300,D10*Тарифы!$B$65,D10*Тарифы!$B$64))",
+          "cached_result": 59.800000000000004
+        },
+        {
+          "cell": "P10",
+          "row": 10,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q10",
+          "row": 10,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.18,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R10",
+          "row": 10,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D10=\"\",\"\",D10*Q10)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",D10*Q10)",
+          "cached_result": 46.8
+        },
+        {
+          "cell": "S10",
+          "row": 10,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E10=\"\",\"\",E10*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E10=\"\",\"\",E10*Тарифы!$B$20)",
+          "cached_result": 23.98
+        },
+        {
+          "cell": "T10",
+          "row": 10,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D10=\"\",\"\",D10*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",D10*Тарифы!$B$22)",
+          "cached_result": 2.6
+        },
+        {
+          "cell": "U10",
+          "row": 10,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D10=\"\",\"\",N10+O10+P10+R10+S10+T10+F10)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",N10+O10+P10+R10+S10+T10+F10)",
+          "cached_result": 240.75214172981157
+        },
+        {
+          "cell": "V10",
+          "row": 10,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D10=\"\",\"\",D10-U10)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D10=\"\",\"\",D10-U10)",
+          "cached_result": 19.24785827018843
+        },
+        {
+          "cell": "W10",
+          "row": 10,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D10=\"\",F10=\"\",F10=0),\"\",( D10-U10)/F10)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D10=\"\",F10=\"\",F10=0),\"\",( D10-U10)/F10)",
+          "cached_result": 0.3774089856899692
+        },
+        {
+          "cell": "X10",
+          "row": 10,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D10=\"\",D10=0),\"\",R10/D10)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D10=\"\",D10=0),\"\",R10/D10)",
+          "cached_result": 0.18
+        },
+        {
+          "cell": "Y10",
+          "row": 10,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D10=\"\",D10=0),\"\",(D10-U10)/D10)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D10=\"\",D10=0),\"\",(D10-U10)/D10)",
+          "cached_result": 0.07403022411610935
+        },
+        {
+          "cell": "Z10",
+          "row": 10,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A11",
+          "row": 11,
+          "column": 1,
+          "column_letter": "A",
+          "value": 15,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B11",
+          "row": 11,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Мазь варикоз синий",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C11",
+          "row": 11,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN5134257136",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D11",
+          "row": 11,
+          "column": 4,
+          "column_letter": "D",
+          "value": 245,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E11",
+          "row": 11,
+          "column": 5,
+          "column_letter": "E",
+          "value": 206,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F11",
+          "row": 11,
+          "column": 6,
+          "column_letter": "F",
+          "value": 45,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G11",
+          "row": 11,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.13,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H11",
+          "row": 11,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G11=\"\",\"\",IF(D11>300,IF(G11<=0.2,Тарифы!$D$3,IF(G11<=0.4,Тарифы!$D$4,IF(G11<=0.6,Тарифы!$D$5,IF(G11<=0.8,Тарифы!$D$6,IF(G11<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G11<=0.2,Тарифы!$B$3,IF(G11<=0.4,Тарифы!$B$4,IF(G11<=0.6,Тарифы!$B$5,IF(G11<=0.8,Тарифы!$B$6,IF(G11<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G11=\"\",\"\",IF(D11>300,IF(G11<=0.2,Тарифы!$D$3,IF(G11<=0.4,Тарифы!$D$4,IF(G11<=0.6,Тарифы!$D$5,IF(G11<=0.8,Тарифы!$D$6,IF(G11<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G11<=0.2,Тарифы!$B$3,IF(G11<=0.4,Тарифы!$B$4,IF(G11<=0.6,Тарифы!$B$5,IF(G11<=0.8,Тарифы!$B$6,IF(G11<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I11",
+          "row": 11,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D11=\"\",\"\",D11*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",D11*Тарифы!$B$12)",
+          "cached_result": 12.005
+        },
+        {
+          "cell": "J11",
+          "row": 11,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D11=\"\",\"\",D11*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",D11*Тарифы!$B$13)",
+          "cached_result": 3.675
+        },
+        {
+          "cell": "K11",
+          "row": 11,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D11=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L11",
+          "row": 11,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D11=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C11,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C11,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 7.8904243281471
+        },
+        {
+          "cell": "M11",
+          "row": 11,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D11=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C11,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C11,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.1371994342291372
+        },
+        {
+          "cell": "N11",
+          "row": 11,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D11=\"\",\"\",H11+I11+J11+K11+L11+M11)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",H11+I11+J11+K11+L11+M11)",
+          "cached_result": 45.339493457367375
+        },
+        {
+          "cell": "O11",
+          "row": 11,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D11=\"\",\"\",IF(D11>300,D11*Тарифы!$B$65,D11*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",IF(D11>300,D11*Тарифы!$B$65,D11*Тарифы!$B$64))",
+          "cached_result": 56.35
+        },
+        {
+          "cell": "P11",
+          "row": 11,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q11",
+          "row": 11,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.2,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R11",
+          "row": 11,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D11=\"\",\"\",D11*Q11)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",D11*Q11)",
+          "cached_result": 49
+        },
+        {
+          "cell": "S11",
+          "row": 11,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E11=\"\",\"\",E11*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E11=\"\",\"\",E11*Тарифы!$B$20)",
+          "cached_result": 22.66
+        },
+        {
+          "cell": "T11",
+          "row": 11,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D11=\"\",\"\",D11*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",D11*Тарифы!$B$22)",
+          "cached_result": 2.45
+        },
+        {
+          "cell": "U11",
+          "row": 11,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D11=\"\",\"\",N11+O11+P11+R11+S11+T11+F11)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",N11+O11+P11+R11+S11+T11+F11)",
+          "cached_result": 230.79949345736736
+        },
+        {
+          "cell": "V11",
+          "row": 11,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D11=\"\",\"\",D11-U11)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D11=\"\",\"\",D11-U11)",
+          "cached_result": 14.200506542632638
+        },
+        {
+          "cell": "W11",
+          "row": 11,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D11=\"\",F11=\"\",F11=0),\"\",( D11-U11)/F11)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D11=\"\",F11=\"\",F11=0),\"\",( D11-U11)/F11)",
+          "cached_result": 0.31556681205850307
+        },
+        {
+          "cell": "X11",
+          "row": 11,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D11=\"\",D11=0),\"\",R11/D11)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D11=\"\",D11=0),\"\",R11/D11)",
+          "cached_result": 0.2
+        },
+        {
+          "cell": "Y11",
+          "row": 11,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D11=\"\",D11=0),\"\",(D11-U11)/D11)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D11=\"\",D11=0),\"\",(D11-U11)/D11)",
+          "cached_result": 0.05796125119441893
+        },
+        {
+          "cell": "Z11",
+          "row": 11,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A12",
+          "row": 12,
+          "column": 1,
+          "column_letter": "A",
+          "value": 16,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B12",
+          "row": 12,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Стик для шеи Sadoer фиолетовый",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C12",
+          "row": 12,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN5894678582",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D12",
+          "row": 12,
+          "column": 4,
+          "column_letter": "D",
+          "value": 265,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E12",
+          "row": 12,
+          "column": 5,
+          "column_letter": "E",
+          "value": 254,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F12",
+          "row": 12,
+          "column": 6,
+          "column_letter": "F",
+          "value": 55,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G12",
+          "row": 12,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.02,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H12",
+          "row": 12,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G12=\"\",\"\",IF(D12>300,IF(G12<=0.2,Тарифы!$D$3,IF(G12<=0.4,Тарифы!$D$4,IF(G12<=0.6,Тарифы!$D$5,IF(G12<=0.8,Тарифы!$D$6,IF(G12<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G12<=0.2,Тарифы!$B$3,IF(G12<=0.4,Тарифы!$B$4,IF(G12<=0.6,Тарифы!$B$5,IF(G12<=0.8,Тарифы!$B$6,IF(G12<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G12=\"\",\"\",IF(D12>300,IF(G12<=0.2,Тарифы!$D$3,IF(G12<=0.4,Тарифы!$D$4,IF(G12<=0.6,Тарифы!$D$5,IF(G12<=0.8,Тарифы!$D$6,IF(G12<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G12<=0.2,Тарифы!$B$3,IF(G12<=0.4,Тарифы!$B$4,IF(G12<=0.6,Тарифы!$B$5,IF(G12<=0.8,Тарифы!$B$6,IF(G12<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I12",
+          "row": 12,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D12=\"\",\"\",D12*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",D12*Тарифы!$B$12)",
+          "cached_result": 12.985000000000001
+        },
+        {
+          "cell": "J12",
+          "row": 12,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D12=\"\",\"\",D12*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",D12*Тарифы!$B$13)",
+          "cached_result": 3.9749999999999996
+        },
+        {
+          "cell": "K12",
+          "row": 12,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D12=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L12",
+          "row": 12,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D12=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C12,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C12,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 4.4740625
+        },
+        {
+          "cell": "M12",
+          "row": 12,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D12=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C12,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C12,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0
+        },
+        {
+          "cell": "N12",
+          "row": 12,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IFERROR(IF(D12=\"\",\"\",H12+I12+J12+K12+L12+M12),\"0\")",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IFERROR(IF(D12=\"\",\"\",H12+I12+J12+K12+L12+M12),\"0\")",
+          "cached_result": 43.06593219499114
+        },
+        {
+          "cell": "O12",
+          "row": 12,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D12=\"\",\"\",IF(D12>300,D12*Тарифы!$B$65,D12*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",IF(D12>300,D12*Тарифы!$B$65,D12*Тарифы!$B$64))",
+          "cached_result": 60.95
+        },
+        {
+          "cell": "P12",
+          "row": 12,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q12",
+          "row": 12,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.2,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R12",
+          "row": 12,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D12=\"\",\"\",D12*Q12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",D12*Q12)",
+          "cached_result": 53
+        },
+        {
+          "cell": "S12",
+          "row": 12,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E12=\"\",\"\",E12*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E12=\"\",\"\",E12*Тарифы!$B$20)",
+          "cached_result": 27.94
+        },
+        {
+          "cell": "T12",
+          "row": 12,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D12=\"\",\"\",D12*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",D12*Тарифы!$B$22)",
+          "cached_result": 2.65
+        },
+        {
+          "cell": "U12",
+          "row": 12,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D12=\"\",\"\",N12+O12+P12+R12+S12+T12+F12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",N12+O12+P12+R12+S12+T12+F12)",
+          "cached_result": 252.60593219499114
+        },
+        {
+          "cell": "V12",
+          "row": 12,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D12=\"\",\"\",D12-U12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D12=\"\",\"\",D12-U12)",
+          "cached_result": 12.39406780500886
+        },
+        {
+          "cell": "W12",
+          "row": 12,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D12=\"\",F12=\"\",F12=0),\"\",( D12-U12)/F12)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D12=\"\",F12=\"\",F12=0),\"\",( D12-U12)/F12)",
+          "cached_result": 0.22534668736379745
+        },
+        {
+          "cell": "X12",
+          "row": 12,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D12=\"\",D12=0),\"\",R12/D12)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D12=\"\",D12=0),\"\",R12/D12)",
+          "cached_result": 0.2
+        },
+        {
+          "cell": "Y12",
+          "row": 12,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D12=\"\",D12=0),\"\",(D12-U12)/D12)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D12=\"\",D12=0),\"\",(D12-U12)/D12)",
+          "cached_result": 0.046770067188712676
+        },
+        {
+          "cell": "Z12",
+          "row": 12,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A13",
+          "row": 13,
+          "column": 1,
+          "column_letter": "A",
+          "value": 17,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B13",
+          "row": 13,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Тушь Еnergizer",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C13",
+          "row": 13,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN5691715887",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D13",
+          "row": 13,
+          "column": 4,
+          "column_letter": "D",
+          "value": 288,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E13",
+          "row": 13,
+          "column": 5,
+          "column_letter": "E",
+          "value": 238,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F13",
+          "row": 13,
+          "column": 6,
+          "column_letter": "F",
+          "value": 55,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G13",
+          "row": 13,
+          "column": 7,
+          "column_letter": "G",
+          "value": 0.07,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H13",
+          "row": 13,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G13=\"\",\"\",IF(D13>300,IF(G13<=0.2,Тарифы!$D$3,IF(G13<=0.4,Тарифы!$D$4,IF(G13<=0.6,Тарифы!$D$5,IF(G13<=0.8,Тарифы!$D$6,IF(G13<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G13<=0.2,Тарифы!$B$3,IF(G13<=0.4,Тарифы!$B$4,IF(G13<=0.6,Тарифы!$B$5,IF(G13<=0.8,Тарифы!$B$6,IF(G13<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G13=\"\",\"\",IF(D13>300,IF(G13<=0.2,Тарифы!$D$3,IF(G13<=0.4,Тарифы!$D$4,IF(G13<=0.6,Тарифы!$D$5,IF(G13<=0.8,Тарифы!$D$6,IF(G13<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G13<=0.2,Тарифы!$B$3,IF(G13<=0.4,Тарифы!$B$4,IF(G13<=0.6,Тарифы!$B$5,IF(G13<=0.8,Тарифы!$B$6,IF(G13<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 20
+        },
+        {
+          "cell": "I13",
+          "row": 13,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D13=\"\",\"\",D13*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",D13*Тарифы!$B$12)",
+          "cached_result": 14.112
+        },
+        {
+          "cell": "J13",
+          "row": 13,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D13=\"\",\"\",D13*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",D13*Тарифы!$B$13)",
+          "cached_result": 4.32
+        },
+        {
+          "cell": "K13",
+          "row": 13,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D13=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L13",
+          "row": 13,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D13=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C13,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C13,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 6.351382765531063
+        },
+        {
+          "cell": "M13",
+          "row": 13,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D13=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C13,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C13,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.10420841683366733
+        },
+        {
+          "cell": "N13",
+          "row": 13,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D13=\"\",\"\",H13+I13+J13+K13+L13+M13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",H13+I13+J13+K13+L13+M13)",
+          "cached_result": 46.51946087735587
+        },
+        {
+          "cell": "O13",
+          "row": 13,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D13=\"\",\"\",IF(D13>300,D13*Тарифы!$B$65,D13*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",IF(D13>300,D13*Тарифы!$B$65,D13*Тарифы!$B$64))",
+          "cached_result": 66.24000000000001
+        },
+        {
+          "cell": "P13",
+          "row": 13,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q13",
+          "row": 13,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.16,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R13",
+          "row": 13,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D13=\"\",\"\",D13*Q13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",D13*Q13)",
+          "cached_result": 46.08
+        },
+        {
+          "cell": "S13",
+          "row": 13,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E13=\"\",\"\",E13*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E13=\"\",\"\",E13*Тарифы!$B$20)",
+          "cached_result": 26.18
+        },
+        {
+          "cell": "T13",
+          "row": 13,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D13=\"\",\"\",D13*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",D13*Тарифы!$B$22)",
+          "cached_result": 2.88
+        },
+        {
+          "cell": "U13",
+          "row": 13,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D13=\"\",\"\",N13+O13+P13+R13+S13+T13+F13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",N13+O13+P13+R13+S13+T13+F13)",
+          "cached_result": 252.89946087735586
+        },
+        {
+          "cell": "V13",
+          "row": 13,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D13=\"\",\"\",D13-U13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D13=\"\",\"\",D13-U13)",
+          "cached_result": 35.100539122644136
+        },
+        {
+          "cell": "W13",
+          "row": 13,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D13=\"\",F13=\"\",F13=0),\"\",( D13-U13)/F13)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D13=\"\",F13=\"\",F13=0),\"\",( D13-U13)/F13)",
+          "cached_result": 0.6381916204117115
+        },
+        {
+          "cell": "X13",
+          "row": 13,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D13=\"\",D13=0),\"\",R13/D13)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D13=\"\",D13=0),\"\",R13/D13)",
+          "cached_result": 0.16
+        },
+        {
+          "cell": "Y13",
+          "row": 13,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D13=\"\",D13=0),\"\",(D13-U13)/D13)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D13=\"\",D13=0),\"\",(D13-U13)/D13)",
+          "cached_result": 0.12187687195362547
+        },
+        {
+          "cell": "Z13",
+          "row": 13,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A14",
+          "row": 14,
+          "column": 1,
+          "column_letter": "A",
+          "value": 18,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "B14",
+          "row": 14,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Мазь от геморроя зеленая",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C14",
+          "row": 14,
+          "column": 3,
+          "column_letter": "C",
+          "value": "OZN5716237224",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D14",
+          "row": 14,
+          "column": 4,
+          "column_letter": "D",
+          "value": 275,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "E14",
+          "row": 14,
+          "column": 5,
+          "column_letter": "E",
+          "value": 230,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "F14",
+          "row": 14,
+          "column": 6,
+          "column_letter": "F",
+          "value": 44,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "G14",
+          "row": 14,
+          "column": 7,
+          "column_letter": "G",
+          "value": "0.07",
+          "data_type": "s",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "H14",
+          "row": 14,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G14=\"\",\"\",IF(D14>300,IF(G14<=0.2,Тарифы!$D$3,IF(G14<=0.4,Тарифы!$D$4,IF(G14<=0.6,Тарифы!$D$5,IF(G14<=0.8,Тарифы!$D$6,IF(G14<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G14<=0.2,Тарифы!$B$3,IF(G14<=0.4,Тарифы!$B$4,IF(G14<=0.6,Тарифы!$B$5,IF(G14<=0.8,Тарифы!$B$6,IF(G14<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G14=\"\",\"\",IF(D14>300,IF(G14<=0.2,Тарифы!$D$3,IF(G14<=0.4,Тарифы!$D$4,IF(G14<=0.6,Тарифы!$D$5,IF(G14<=0.8,Тарифы!$D$6,IF(G14<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G14<=0.2,Тарифы!$B$3,IF(G14<=0.4,Тарифы!$B$4,IF(G14<=0.6,Тарифы!$B$5,IF(G14<=0.8,Тарифы!$B$6,IF(G14<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": 27
+        },
+        {
+          "cell": "I14",
+          "row": 14,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D14=\"\",\"\",D14*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",D14*Тарифы!$B$12)",
+          "cached_result": 13.475
+        },
+        {
+          "cell": "J14",
+          "row": 14,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D14=\"\",\"\",D14*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",D14*Тарифы!$B$13)",
+          "cached_result": 4.125
+        },
+        {
+          "cell": "K14",
+          "row": 14,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D14=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "L14",
+          "row": 14,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D14=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C14,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C14,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 7.206
+        },
+        {
+          "cell": "M14",
+          "row": 14,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D14=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C14,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C14,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": 0.10256410256410256
+        },
+        {
+          "cell": "N14",
+          "row": 14,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D14=\"\",\"\",H14+I14+J14+K14+L14+M14)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",H14+I14+J14+K14+L14+M14)",
+          "cached_result": 53.540433797555245
+        },
+        {
+          "cell": "O14",
+          "row": 14,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D14=\"\",\"\",IF(D14>300,D14*Тарифы!$B$65,D14*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",IF(D14>300,D14*Тарифы!$B$65,D14*Тарифы!$B$64))",
+          "cached_result": 63.25
+        },
+        {
+          "cell": "P14",
+          "row": 14,
+          "column": 16,
+          "column_letter": "P",
+          "value": 10,
+          "data_type": "n",
+          "number_format": "#,##0.00"
+        },
+        {
+          "cell": "Q14",
+          "row": 14,
+          "column": 17,
+          "column_letter": "Q",
+          "value": 0.16,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "R14",
+          "row": 14,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D14=\"\",\"\",D14*Q14)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",D14*Q14)",
+          "cached_result": 44
+        },
+        {
+          "cell": "S14",
+          "row": 14,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(E14=\"\",\"\",E14*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(E14=\"\",\"\",E14*Тарифы!$B$20)",
+          "cached_result": 25.3
+        },
+        {
+          "cell": "T14",
+          "row": 14,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D14=\"\",\"\",D14*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",D14*Тарифы!$B$22)",
+          "cached_result": 2.75
+        },
+        {
+          "cell": "U14",
+          "row": 14,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D14=\"\",\"\",N14+O14+P14+R14+S14+T14+F14)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",N14+O14+P14+R14+S14+T14+F14)",
+          "cached_result": 242.84043379755525
+        },
+        {
+          "cell": "V14",
+          "row": 14,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D14=\"\",\"\",D14-U14)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D14=\"\",\"\",D14-U14)",
+          "cached_result": 32.15956620244475
+        },
+        {
+          "cell": "W14",
+          "row": 14,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D14=\"\",F14=\"\",F14=0),\"\",( D14-U14)/F14)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D14=\"\",F14=\"\",F14=0),\"\",( D14-U14)/F14)",
+          "cached_result": 0.7308992318737443
+        },
+        {
+          "cell": "X14",
+          "row": 14,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D14=\"\",D14=0),\"\",R14/D14)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D14=\"\",D14=0),\"\",R14/D14)",
+          "cached_result": 0.16
+        },
+        {
+          "cell": "Y14",
+          "row": 14,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D14=\"\",D14=0),\"\",(D14-U14)/D14)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D14=\"\",D14=0),\"\",(D14-U14)/D14)",
+          "cached_result": 0.11694387709979909
+        },
+        {
+          "cell": "Z14",
+          "row": 14,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "column_letter": "A",
+          "value": 19,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "H15",
+          "row": 15,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G15=\"\",\"\",IF(D15>300,IF(G15<=0.2,Тарифы!$D$3,IF(G15<=0.4,Тарифы!$D$4,IF(G15<=0.6,Тарифы!$D$5,IF(G15<=0.8,Тарифы!$D$6,IF(G15<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G15<=0.2,Тарифы!$B$3,IF(G15<=0.4,Тарифы!$B$4,IF(G15<=0.6,Тарифы!$B$5,IF(G15<=0.8,Тарифы!$B$6,IF(G15<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G15=\"\",\"\",IF(D15>300,IF(G15<=0.2,Тарифы!$D$3,IF(G15<=0.4,Тарифы!$D$4,IF(G15<=0.6,Тарифы!$D$5,IF(G15<=0.8,Тарифы!$D$6,IF(G15<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G15<=0.2,Тарифы!$B$3,IF(G15<=0.4,Тарифы!$B$4,IF(G15<=0.6,Тарифы!$B$5,IF(G15<=0.8,Тарифы!$B$6,IF(G15<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": null
+        },
+        {
+          "cell": "I15",
+          "row": 15,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D15=\"\",\"\",D15*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15*Тарифы!$B$12)",
+          "cached_result": null
+        },
+        {
+          "cell": "J15",
+          "row": 15,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D15=\"\",\"\",D15*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15*Тарифы!$B$13)",
+          "cached_result": null
+        },
+        {
+          "cell": "K15",
+          "row": 15,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D15=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": null
+        },
+        {
+          "cell": "L15",
+          "row": 15,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D15=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C15,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C15,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": null
+        },
+        {
+          "cell": "M15",
+          "row": 15,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D15=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C15,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C15,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": null
+        },
+        {
+          "cell": "N15",
+          "row": 15,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D15=\"\",\"\",H15+I15+J15+K15+L15+M15)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",H15+I15+J15+K15+L15+M15)",
+          "cached_result": null
+        },
+        {
+          "cell": "O15",
+          "row": 15,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D15=\"\",\"\",IF(D15>300,D15*Тарифы!$B$65,D15*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",IF(D15>300,D15*Тарифы!$B$65,D15*Тарифы!$B$64))",
+          "cached_result": null
+        },
+        {
+          "cell": "R15",
+          "row": 15,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D15=\"\",\"\",D15*Q15)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15*Q15)",
+          "cached_result": null
+        },
+        {
+          "cell": "S15",
+          "row": 15,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(D15=\"\",\"\",D15*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15*Тарифы!$B$20)",
+          "cached_result": null
+        },
+        {
+          "cell": "T15",
+          "row": 15,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D15=\"\",\"\",D15*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15*Тарифы!$B$22)",
+          "cached_result": null
+        },
+        {
+          "cell": "U15",
+          "row": 15,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D15=\"\",\"\",N15+O15+P15+R15+S15+#REF!+T15+F15)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",N15+O15+P15+R15+S15+#REF!+T15+F15)",
+          "cached_result": null
+        },
+        {
+          "cell": "V15",
+          "row": 15,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D15=\"\",\"\",D15-U15)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D15=\"\",\"\",D15-U15)",
+          "cached_result": null
+        },
+        {
+          "cell": "W15",
+          "row": 15,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D15=\"\",F15=\"\",F15=0),\"\",( D15-U15)/F15)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D15=\"\",F15=\"\",F15=0),\"\",( D15-U15)/F15)",
+          "cached_result": null
+        },
+        {
+          "cell": "X15",
+          "row": 15,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D15=\"\",D15=0),\"\",R15/D15)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D15=\"\",D15=0),\"\",R15/D15)",
+          "cached_result": null
+        },
+        {
+          "cell": "Y15",
+          "row": 15,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D15=\"\",D15=0),\"\",(D15-U15)/D15)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D15=\"\",D15=0),\"\",(D15-U15)/D15)",
+          "cached_result": null
+        },
+        {
+          "cell": "Z15",
+          "row": 15,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "column_letter": "A",
+          "value": 20,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "H16",
+          "row": 16,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(G16=\"\",\"\",IF(D16>300,IF(G16<=0.2,Тарифы!$D$3,IF(G16<=0.4,Тарифы!$D$4,IF(G16<=0.6,Тарифы!$D$5,IF(G16<=0.8,Тарифы!$D$6,IF(G16<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G16<=0.2,Тарифы!$B$3,IF(G16<=0.4,Тарифы!$B$4,IF(G16<=0.6,Тарифы!$B$5,IF(G16<=0.8,Тарифы!$B$6,IF(G16<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(G16=\"\",\"\",IF(D16>300,IF(G16<=0.2,Тарифы!$D$3,IF(G16<=0.4,Тарифы!$D$4,IF(G16<=0.6,Тарифы!$D$5,IF(G16<=0.8,Тарифы!$D$6,IF(G16<=1,Тарифы!$D$7,Тарифы!$D$8))))),IF(G16<=0.2,Тарифы!$B$3,IF(G16<=0.4,Тарифы!$B$4,IF(G16<=0.6,Тарифы!$B$5,IF(G16<=0.8,Тарифы!$B$6,IF(G16<=1,Тарифы!$B$7,Тарифы!$B$8)))))))",
+          "cached_result": null
+        },
+        {
+          "cell": "I16",
+          "row": 16,
+          "column": 9,
+          "column_letter": "I",
+          "value": "=IF(D16=\"\",\"\",D16*Тарифы!$B$12)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16*Тарифы!$B$12)",
+          "cached_result": null
+        },
+        {
+          "cell": "J16",
+          "row": 16,
+          "column": 10,
+          "column_letter": "J",
+          "value": "=IF(D16=\"\",\"\",D16*Тарифы!$B$13)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16*Тарифы!$B$13)",
+          "cached_result": null
+        },
+        {
+          "cell": "K16",
+          "row": 16,
+          "column": 11,
+          "column_letter": "K",
+          "value": "=IF(D16=\"\",\"\",Тарифы!$B$16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",Тарифы!$B$16)",
+          "cached_result": null
+        },
+        {
+          "cell": "L16",
+          "row": 16,
+          "column": 12,
+          "column_letter": "L",
+          "value": "=IF(D16=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C16,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",IFERROR(INDEX(Тарифы!$H$30:$H$42,MATCH(C16,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": null
+        },
+        {
+          "cell": "M16",
+          "row": 16,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D16=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C16,Тарифы!$B$30:$B$42,0)),0))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",IFERROR(INDEX(Тарифы!$E$30:$E$42,MATCH(C16,Тарифы!$B$30:$B$42,0)),0))",
+          "cached_result": null
+        },
+        {
+          "cell": "N16",
+          "row": 16,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D16=\"\",\"\",H16+I16+J16+K16+L16+M16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",H16+I16+J16+K16+L16+M16)",
+          "cached_result": null
+        },
+        {
+          "cell": "O16",
+          "row": 16,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D16=\"\",\"\",IF(D16>300,D16*Тарифы!$B$65,D16*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",IF(D16>300,D16*Тарифы!$B$65,D16*Тарифы!$B$64))",
+          "cached_result": null
+        },
+        {
+          "cell": "R16",
+          "row": 16,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=IF(D16=\"\",\"\",D16*Q16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16*Q16)",
+          "cached_result": null
+        },
+        {
+          "cell": "S16",
+          "row": 16,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=IF(D16=\"\",\"\",D16*Тарифы!$B$20)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16*Тарифы!$B$20)",
+          "cached_result": null
+        },
+        {
+          "cell": "T16",
+          "row": 16,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=IF(D16=\"\",\"\",D16*Тарифы!$B$22)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16*Тарифы!$B$22)",
+          "cached_result": null
+        },
+        {
+          "cell": "U16",
+          "row": 16,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D16=\"\",\"\",N16+O16+P16+R16+S16+#REF!+T16+F16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",N16+O16+P16+R16+S16+#REF!+T16+F16)",
+          "cached_result": null
+        },
+        {
+          "cell": "V16",
+          "row": 16,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=IF(D16=\"\",\"\",D16-U16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D16=\"\",\"\",D16-U16)",
+          "cached_result": null
+        },
+        {
+          "cell": "W16",
+          "row": 16,
+          "column": 23,
+          "column_letter": "W",
+          "value": "=IF(OR(D16=\"\",F16=\"\",F16=0),\"\",( D16-U16)/F16)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D16=\"\",F16=\"\",F16=0),\"\",( D16-U16)/F16)",
+          "cached_result": null
+        },
+        {
+          "cell": "X16",
+          "row": 16,
+          "column": 24,
+          "column_letter": "X",
+          "value": "=IF(OR(D16=\"\",D16=0),\"\",R16/D16)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D16=\"\",D16=0),\"\",R16/D16)",
+          "cached_result": null
+        },
+        {
+          "cell": "Y16",
+          "row": 16,
+          "column": 25,
+          "column_letter": "Y",
+          "value": "=IF(OR(D16=\"\",D16=0),\"\",(D16-U16)/D16)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF(OR(D16=\"\",D16=0),\"\",(D16-U16)/D16)",
+          "cached_result": null
+        },
+        {
+          "cell": "Z16",
+          "row": 16,
+          "column": 26,
+          "column_letter": "Z",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00%"
+        },
+        {
+          "cell": "A17",
+          "row": 17,
+          "column": 1,
+          "column_letter": "A",
+          "value": "ИТОГО ПО МАГАЗИНУ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D17",
+          "row": 17,
+          "column": 4,
+          "column_letter": "D",
+          "value": "=SUMIF(D4:D16,\"<>\",D4:D16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(D4:D16,\"<>\",D4:D16)",
+          "cached_result": 2883
+        },
+        {
+          "cell": "F17",
+          "row": 17,
+          "column": 6,
+          "column_letter": "F",
+          "value": "=SUMIF(F4:F16,\"<>\",F4:F16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(F4:F16,\"<>\",F4:F16)",
+          "cached_result": 531.8
+        },
+        {
+          "cell": "M17",
+          "row": 17,
+          "column": 13,
+          "column_letter": "M",
+          "value": "=IF(D17=\"\",\"\",Тарифы!$B$15)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D17=\"\",\"\",Тарифы!$B$15)",
+          "cached_result": 0
+        },
+        {
+          "cell": "N17",
+          "row": 17,
+          "column": 14,
+          "column_letter": "N",
+          "value": "=IF(D17=\"\",\"\",H17+I17+J17+K17+L17+M17)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D17=\"\",\"\",H17+I17+J17+K17+L17+M17)",
+          "cached_result": 0
+        },
+        {
+          "cell": "O17",
+          "row": 17,
+          "column": 15,
+          "column_letter": "O",
+          "value": "=IF(D17=\"\",\"\",IF(D17>300,D17*Тарифы!$B$65,D17*Тарифы!$B$64))",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D17=\"\",\"\",IF(D17>300,D17*Тарифы!$B$65,D17*Тарифы!$B$64))",
+          "cached_result": 1499.16
+        },
+        {
+          "cell": "P17",
+          "row": 17,
+          "column": 16,
+          "column_letter": "P",
+          "value": "=SUMIF(P4:P16,\"<>\",P4:P16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(P4:P16,\"<>\",P4:P16)",
+          "cached_result": 110
+        },
+        {
+          "cell": "R17",
+          "row": 17,
+          "column": 18,
+          "column_letter": "R",
+          "value": "=SUMIF(R4:R16,\"<>\",R4:R16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(R4:R16,\"<>\",R4:R16)",
+          "cached_result": 485.18
+        },
+        {
+          "cell": "S17",
+          "row": 17,
+          "column": 19,
+          "column_letter": "S",
+          "value": "=SUMIF(S4:S16,\"<>\",S4:S16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(S4:S16,\"<>\",S4:S16)",
+          "cached_result": 244.53000000000003
+        },
+        {
+          "cell": "T17",
+          "row": 17,
+          "column": 20,
+          "column_letter": "T",
+          "value": "=SUMIF(T4:T16,\"<>\",T4:T16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(T4:T16,\"<>\",T4:T16)",
+          "cached_result": 28.830000000000002
+        },
+        {
+          "cell": "U17",
+          "row": 17,
+          "column": 21,
+          "column_letter": "U",
+          "value": "=IF(D17=\"\",\"\",N17+O17+P17+R17+S17+#REF!+T17+F17)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=IF(D17=\"\",\"\",N17+O17+P17+R17+S17+#REF!+T17+F17)",
+          "cached_result": "#REF!",
+          "cached_error": "#REF!"
+        },
+        {
+          "cell": "V17",
+          "row": 17,
+          "column": 22,
+          "column_letter": "V",
+          "value": "=SUMIF(V4:V16,\"<>\",V4:V16)",
+          "data_type": "f",
+          "number_format": "#,##0.00",
+          "formula": "=SUMIF(V4:V16,\"<>\",V4:V16)",
+          "cached_result": "#VALUE!",
+          "cached_error": "#VALUE!"
+        }
+      ]
+    },
+    {
+      "name": "Тарифы",
+      "max_row": 67,
+      "max_column": 9,
+      "merged_cells": [
+        "A10:C10",
+        "C61:I61",
+        "A46:F46",
+        "A1:C1",
+        "F1:H1",
+        "A67:F67",
+        "A28:H28",
+        "A18:C18",
+        "A44:H44",
+        "A24:C24"
+      ],
+      "cells": [
+        {
+          "cell": "A1",
+          "row": 1,
+          "column": 1,
+          "column_letter": "A",
+          "value": "СПРАВОЧНИК ТАРИФОВ — изменяй здесь, таблица пересчитается автоматически",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "F1",
+          "row": 1,
+          "column": 6,
+          "column_letter": "F",
+          "value": "ТАРИФ НА ЛОГИСТИКУ С 28.08.2026 г",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A2",
+          "row": 2,
+          "column": 1,
+          "column_letter": "A",
+          "value": "▌ ТАРИФЫ ДОСТАВКИ (₽) — кластер Москва/Тула",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B2",
+          "row": 2,
+          "column": 2,
+          "column_letter": "B",
+          "value": "До 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D2",
+          "row": 2,
+          "column": 4,
+          "column_letter": "D",
+          "value": "Свыше 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "F2",
+          "row": 2,
+          "column": 6,
+          "column_letter": "F",
+          "value": "▌ ТАРИФЫ ДОСТАВКИ (₽) — кластер Москва/Тула",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G2",
+          "row": 2,
+          "column": 7,
+          "column_letter": "G",
+          "value": "До 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "I2",
+          "row": 2,
+          "column": 9,
+          "column_letter": "I",
+          "value": "Свыше 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A3",
+          "row": 3,
+          "column": 1,
+          "column_letter": "A",
+          "value": "0 – 0,20 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B3",
+          "row": 3,
+          "column": 2,
+          "column_letter": "B",
+          "value": 20,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C3",
+          "row": 3,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Тушь, карандаш, патчи, небольшой крем",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D3",
+          "row": 3,
+          "column": 4,
+          "column_letter": "D",
+          "value": 76,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F3",
+          "row": 3,
+          "column": 6,
+          "column_letter": "F",
+          "value": "0 – 0,20 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G3",
+          "row": 3,
+          "column": 7,
+          "column_letter": "G",
+          "value": 21.41,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "H3",
+          "row": 3,
+          "column": 8,
+          "column_letter": "H",
+          "value": "Тушь, карандаш, патчи, небольшой крем",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "I3",
+          "row": 3,
+          "column": 9,
+          "column_letter": "I",
+          "value": 81.82,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A4",
+          "row": 4,
+          "column": 1,
+          "column_letter": "A",
+          "value": "0,201 – 0,40 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B4",
+          "row": 4,
+          "column": 2,
+          "column_letter": "B",
+          "value": 22,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C4",
+          "row": 4,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Средний крем, гель для бровей",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D4",
+          "row": 4,
+          "column": 4,
+          "column_letter": "D",
+          "value": 84,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F4",
+          "row": 4,
+          "column": 6,
+          "column_letter": "F",
+          "value": "0,201 – 0,40 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G4",
+          "row": 4,
+          "column": 7,
+          "column_letter": "G",
+          "value": 23.5,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "H4",
+          "row": 4,
+          "column": 8,
+          "column_letter": "H",
+          "value": "Средний крем, гель для бровей",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "I4",
+          "row": 4,
+          "column": 9,
+          "column_letter": "I",
+          "value": 90.36,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A5",
+          "row": 5,
+          "column": 1,
+          "column_letter": "A",
+          "value": "0,401 – 0,60 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B5",
+          "row": 5,
+          "column": 2,
+          "column_letter": "B",
+          "value": 23,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C5",
+          "row": 5,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Крупный крем, тюбик",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D5",
+          "row": 5,
+          "column": 4,
+          "column_letter": "D",
+          "value": 88,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F5",
+          "row": 5,
+          "column": 6,
+          "column_letter": "F",
+          "value": "0,401 – 0,60 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G5",
+          "row": 5,
+          "column": 7,
+          "column_letter": "G",
+          "value": 25,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "H5",
+          "row": 5,
+          "column": 8,
+          "column_letter": "H",
+          "value": "Крупный крем, тюбик",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "I5",
+          "row": 5,
+          "column": 9,
+          "column_letter": "I",
+          "value": 96.41,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A6",
+          "row": 6,
+          "column": 1,
+          "column_letter": "A",
+          "value": "0,601 – 0,80 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B6",
+          "row": 6,
+          "column": 2,
+          "column_letter": "B",
+          "value": 23,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "D6",
+          "row": 6,
+          "column": 4,
+          "column_letter": "D",
+          "value": 88,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F6",
+          "row": 6,
+          "column": 6,
+          "column_letter": "F",
+          "value": "0,601 – 0,80 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G6",
+          "row": 6,
+          "column": 7,
+          "column_letter": "G",
+          "value": 26.05,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "I6",
+          "row": 6,
+          "column": 9,
+          "column_letter": "I",
+          "value": 96.41,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A7",
+          "row": 7,
+          "column": 1,
+          "column_letter": "A",
+          "value": "0,801 – 1,00 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B7",
+          "row": 7,
+          "column": 2,
+          "column_letter": "B",
+          "value": 25,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "D7",
+          "row": 7,
+          "column": 4,
+          "column_letter": "D",
+          "value": 88,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F7",
+          "row": 7,
+          "column": 6,
+          "column_letter": "F",
+          "value": "0,801 – 1,00 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G7",
+          "row": 7,
+          "column": 7,
+          "column_letter": "G",
+          "value": 28.36,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "I7",
+          "row": 7,
+          "column": 9,
+          "column_letter": "I",
+          "value": 98.23,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A8",
+          "row": 8,
+          "column": 1,
+          "column_letter": "A",
+          "value": "1,001 – 1,25 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B8",
+          "row": 8,
+          "column": 2,
+          "column_letter": "B",
+          "value": 27,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "D8",
+          "row": 8,
+          "column": 4,
+          "column_letter": "D",
+          "value": 89,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F8",
+          "row": 8,
+          "column": 6,
+          "column_letter": "F",
+          "value": "1,001 – 1,25 л",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G8",
+          "row": 8,
+          "column": 7,
+          "column_letter": "G",
+          "value": 30.82,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "I8",
+          "row": 8,
+          "column": 9,
+          "column_letter": "I",
+          "value": 103.82,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A10",
+          "row": 10,
+          "column": 1,
+          "column_letter": "A",
+          "value": "▌ ПРОЧИЕ РАСХОДЫ — проценты от цены или фиксированные суммы",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A11",
+          "row": 11,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Последняя миля — доля от цены",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B11",
+          "row": 11,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.049,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C11",
+          "row": 11,
+          "column": 3,
+          "column_letter": "C",
+          "value": "4,9% — среднее значение по Ozon",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A12",
+          "row": 12,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Последняя миля — доля от цены",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B12",
+          "row": 12,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.049,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C12",
+          "row": 12,
+          "column": 3,
+          "column_letter": "C",
+          "value": "ссылка строки 11 (не менять)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A13",
+          "row": 13,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Эквайринг — доля от цены",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B13",
+          "row": 13,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.015,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C13",
+          "row": 13,
+          "column": 3,
+          "column_letter": "C",
+          "value": "1,5% — фиксировано Ozon",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A14",
+          "row": 14,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Доставка доместа выдачи",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B14",
+          "row": 14,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.0"
+        },
+        {
+          "cell": "C14",
+          "row": 14,
+          "column": 3,
+          "column_letter": "C",
+          "value": "вносить вручную фин отчет (общий ориентир; для каждого товара — см. детализацию ниже)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A15",
+          "row": 15,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Локальность продаж/доплата",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B15",
+          "row": 15,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.00"
+        },
+        {
+          "cell": "C15",
+          "row": 15,
+          "column": 3,
+          "column_letter": "C",
+          "value": "см в отчете магазина, локальность (общий ориентир; для каждого товара — см. детализацию ниже)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A16",
+          "row": 16,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Кросс-докинг — фикс, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B16",
+          "row": 16,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=E16/G16",
+          "data_type": "f",
+          "number_format": "0.0",
+          "formula": "=E16/G16",
+          "cached_result": 1.631869694991139
+        },
+        {
+          "cell": "C16",
+          "row": 16,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Фиксированная ставка",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D16",
+          "row": 16,
+          "column": 4,
+          "column_letter": "D",
+          "value": "ВНЕСТИ из ФИН ОТЧЕТА по конкретному магазину",
+          "data_type": "s",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E16",
+          "row": 16,
+          "column": 5,
+          "column_letter": "E",
+          "value": 69981.1,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "F16",
+          "row": 16,
+          "column": 6,
+          "column_letter": "F",
+          "value": "2026-10-01T00:00:00",
+          "data_type": "d",
+          "number_format": "d-mmm"
+        },
+        {
+          "cell": "G16",
+          "row": 16,
+          "column": 7,
+          "column_letter": "G",
+          "value": "=45405-2521",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=45405-2521",
+          "cached_result": 42884
+        },
+        {
+          "cell": "A18",
+          "row": 18,
+          "column": 1,
+          "column_letter": "A",
+          "value": "▌ КОМИССИЯ И НАЛОГИ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A19",
+          "row": 19,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Комиссия Ozon (доля)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B19",
+          "row": 19,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.2,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C19",
+          "row": 19,
+          "column": 3,
+          "column_letter": "C",
+          "value": "20% для бьюти до 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D19",
+          "row": 19,
+          "column": 4,
+          "column_letter": "D",
+          "value": "БУДЕТ МЕНЯТЬСЯ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A20",
+          "row": 20,
+          "column": 1,
+          "column_letter": "A",
+          "value": "УСН (доля)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B20",
+          "row": 20,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.11,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C20",
+          "row": 20,
+          "column": 3,
+          "column_letter": "C",
+          "value": "6% — измени на 0.08 если 8%",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A21",
+          "row": 21,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Продвижение бренда",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B21",
+          "row": 21,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "A22",
+          "row": 22,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Форс-мажоры (доля)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B22",
+          "row": 22,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.01,
+          "data_type": "n",
+          "number_format": "General"
+        },
+        {
+          "cell": "C22",
+          "row": 22,
+          "column": 3,
+          "column_letter": "C",
+          "value": "1% от цены — брак, потери",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A24",
+          "row": 24,
+          "column": 1,
+          "column_letter": "A",
+          "value": "⚠️  Синие ячейки можно менять. Все изменения здесь автоматически пересчитают таблицу UNIT по товарам.",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A26",
+          "row": 26,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Комиссия Ozon свыше 300 ₽ (доля)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B26",
+          "row": 26,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.41,
+          "data_type": "n",
+          "number_format": "0%"
+        },
+        {
+          "cell": "C26",
+          "row": 26,
+          "column": 3,
+          "column_letter": "C",
+          "value": "41% для бьюти свыше 300 ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D26",
+          "row": 26,
+          "column": 4,
+          "column_letter": "D",
+          "value": "БУДЕТ МЕНЯТЬСЯ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A28",
+          "row": 28,
+          "column": 1,
+          "column_letter": "A",
+          "value": "▌ ДЕТАЛИЗАЦИЯ ПО ТОВАРАМ: Локальность продаж и Доставка до места выдачи (ДДВ)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A29",
+          "row": 29,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Название товара\n(справочно)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B29",
+          "row": 29,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Артикул",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C29",
+          "row": 29,
+          "column": 3,
+          "column_letter": "C",
+          "value": "Локальность,\nруб (за период)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D29",
+          "row": 29,
+          "column": 4,
+          "column_letter": "D",
+          "value": "Локальность,\nкол-во продано",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "E29",
+          "row": 29,
+          "column": 5,
+          "column_letter": "E",
+          "value": "Локальность,\nрасход/ед, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "F29",
+          "row": 29,
+          "column": 6,
+          "column_letter": "F",
+          "value": "ДДВ,\nруб (за период)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "G29",
+          "row": 29,
+          "column": 7,
+          "column_letter": "G",
+          "value": "ДДВ,\nкол-во продано",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "H29",
+          "row": 29,
+          "column": 8,
+          "column_letter": "H",
+          "value": "ДДВ,\nрасход/ед, ₽",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A30",
+          "row": 30,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Китайская чудо мазь зеленая",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B30",
+          "row": 30,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN3493060723",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C30",
+          "row": 30,
+          "column": 3,
+          "column_letter": "C",
+          "value": 3896,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D30",
+          "row": 30,
+          "column": 4,
+          "column_letter": "D",
+          "value": 26994,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E30",
+          "row": 30,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C30=\"\",D30=\"\",D30=0),\"\",C30/D30)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C30=\"\",D30=\"\",D30=0),\"\",C30/D30)",
+          "cached_result": 0.14432836926724457
+        },
+        {
+          "cell": "F30",
+          "row": 30,
+          "column": 6,
+          "column_letter": "F",
+          "value": 213608.04,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G30",
+          "row": 30,
+          "column": 7,
+          "column_letter": "G",
+          "value": 26994,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H30",
+          "row": 30,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F30=\"\",G30=\"\",G30=0),\"\",F30/G30)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F30=\"\",G30=\"\",G30=0),\"\",F30/G30)",
+          "cached_result": 7.913167370526784
+        },
+        {
+          "cell": "A31",
+          "row": 31,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Тушь Hyper Curl",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B31",
+          "row": 31,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN4497059559",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C31",
+          "row": 31,
+          "column": 3,
+          "column_letter": "C",
+          "value": 149,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D31",
+          "row": 31,
+          "column": 4,
+          "column_letter": "D",
+          "value": 3378,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E31",
+          "row": 31,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C31=\"\",D31=\"\",D31=0),\"\",C31/D31)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C31=\"\",D31=\"\",D31=0),\"\",C31/D31)",
+          "cached_result": 0.04410894020130254
+        },
+        {
+          "cell": "F31",
+          "row": 31,
+          "column": 6,
+          "column_letter": "F",
+          "value": 23493.58,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G31",
+          "row": 31,
+          "column": 7,
+          "column_letter": "G",
+          "value": 3378,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H31",
+          "row": 31,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F31=\"\",G31=\"\",G31=0),\"\",F31/G31)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F31=\"\",G31=\"\",G31=0),\"\",F31/G31)",
+          "cached_result": 6.954878626406158
+        },
+        {
+          "cell": "A32",
+          "row": 32,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Крем роллер Sadoer золотой",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B32",
+          "row": 32,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN3492926989",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C32",
+          "row": 32,
+          "column": 3,
+          "column_letter": "C",
+          "value": 17,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D32",
+          "row": 32,
+          "column": 4,
+          "column_letter": "D",
+          "value": 131,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E32",
+          "row": 32,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C32=\"\",D32=\"\",D32=0),\"\",C32/D32)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C32=\"\",D32=\"\",D32=0),\"\",C32/D32)",
+          "cached_result": 0.1297709923664122
+        },
+        {
+          "cell": "F32",
+          "row": 32,
+          "column": 6,
+          "column_letter": "F",
+          "value": 1094.93,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G32",
+          "row": 32,
+          "column": 7,
+          "column_letter": "G",
+          "value": 131,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H32",
+          "row": 32,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F32=\"\",G32=\"\",G32=0),\"\",F32/G32)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F32=\"\",G32=\"\",G32=0),\"\",F32/G32)",
+          "cached_result": 8.358244274809161
+        },
+        {
+          "cell": "A33",
+          "row": 33,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Чудо мазь от кожных заболеваний серебро",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B33",
+          "row": 33,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN4664730833",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C33",
+          "row": 33,
+          "column": 3,
+          "column_letter": "C",
+          "value": 572,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D33",
+          "row": 33,
+          "column": 4,
+          "column_letter": "D",
+          "value": 5426,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E33",
+          "row": 33,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C33=\"\",D33=\"\",D33=0),\"\",C33/D33)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C33=\"\",D33=\"\",D33=0),\"\",C33/D33)",
+          "cached_result": 0.10541835606339846
+        },
+        {
+          "cell": "F33",
+          "row": 33,
+          "column": 6,
+          "column_letter": "F",
+          "value": 44125.73,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G33",
+          "row": 33,
+          "column": 7,
+          "column_letter": "G",
+          "value": 5426,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H33",
+          "row": 33,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F33=\"\",G33=\"\",G33=0),\"\",F33/G33)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F33=\"\",G33=\"\",G33=0),\"\",F33/G33)",
+          "cached_result": 8.13227607814228
+        },
+        {
+          "cell": "A34",
+          "row": 34,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Крем от геморроя Sumifun голубой",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B34",
+          "row": 34,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN4884368183",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C34",
+          "row": 34,
+          "column": 3,
+          "column_letter": "C",
+          "value": 158,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D34",
+          "row": 34,
+          "column": 4,
+          "column_letter": "D",
+          "value": 2735,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E34",
+          "row": 34,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C34=\"\",D34=\"\",D34=0),\"\",C34/D34)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C34=\"\",D34=\"\",D34=0),\"\",C34/D34)",
+          "cached_result": 0.05776965265082267
+        },
+        {
+          "cell": "F34",
+          "row": 34,
+          "column": 6,
+          "column_letter": "F",
+          "value": 20038.69,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G34",
+          "row": 34,
+          "column": 7,
+          "column_letter": "G",
+          "value": 2735,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H34",
+          "row": 34,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F34=\"\",G34=\"\",G34=0),\"\",F34/G34)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F34=\"\",G34=\"\",G34=0),\"\",F34/G34)",
+          "cached_result": 7.3267605118829975
+        },
+        {
+          "cell": "A35",
+          "row": 35,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Крем от экземы, псориаза SumiFun",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B35",
+          "row": 35,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN4884063931",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C35",
+          "row": 35,
+          "column": 3,
+          "column_letter": "C",
+          "value": 70,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D35",
+          "row": 35,
+          "column": 4,
+          "column_letter": "D",
+          "value": 834,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E35",
+          "row": 35,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C35=\"\",D35=\"\",D35=0),\"\",C35/D35)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C35=\"\",D35=\"\",D35=0),\"\",C35/D35)",
+          "cached_result": 0.08393285371702638
+        },
+        {
+          "cell": "F35",
+          "row": 35,
+          "column": 6,
+          "column_letter": "F",
+          "value": 6267.39,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G35",
+          "row": 35,
+          "column": 7,
+          "column_letter": "G",
+          "value": 834,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H35",
+          "row": 35,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F35=\"\",G35=\"\",G35=0),\"\",F35/G35)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F35=\"\",G35=\"\",G35=0),\"\",F35/G35)",
+          "cached_result": 7.514856115107914
+        },
+        {
+          "cell": "A36",
+          "row": 36,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Мазь тигр банка",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B36",
+          "row": 36,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN4946011280",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C36",
+          "row": 36,
+          "column": 3,
+          "column_letter": "C",
+          "value": 386,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D36",
+          "row": 36,
+          "column": 4,
+          "column_letter": "D",
+          "value": 1838,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E36",
+          "row": 36,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C36=\"\",D36=\"\",D36=0),\"\",C36/D36)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C36=\"\",D36=\"\",D36=0),\"\",C36/D36)",
+          "cached_result": 0.2100108813928183
+        },
+        {
+          "cell": "F36",
+          "row": 36,
+          "column": 6,
+          "column_letter": "F",
+          "value": 14869.9,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G36",
+          "row": 36,
+          "column": 7,
+          "column_letter": "G",
+          "value": 1838,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H36",
+          "row": 36,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F36=\"\",G36=\"\",G36=0),\"\",F36/G36)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F36=\"\",G36=\"\",G36=0),\"\",F36/G36)",
+          "cached_result": 8.090261153427639
+        },
+        {
+          "cell": "A37",
+          "row": 37,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Мазь варикоз синий",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B37",
+          "row": 37,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN5134257136",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C37",
+          "row": 37,
+          "column": 3,
+          "column_letter": "C",
+          "value": 194,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D37",
+          "row": 37,
+          "column": 4,
+          "column_letter": "D",
+          "value": 1414,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E37",
+          "row": 37,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C37=\"\",D37=\"\",D37=0),\"\",C37/D37)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C37=\"\",D37=\"\",D37=0),\"\",C37/D37)",
+          "cached_result": 0.1371994342291372
+        },
+        {
+          "cell": "F37",
+          "row": 37,
+          "column": 6,
+          "column_letter": "F",
+          "value": 11157.06,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G37",
+          "row": 37,
+          "column": 7,
+          "column_letter": "G",
+          "value": 1414,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H37",
+          "row": 37,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F37=\"\",G37=\"\",G37=0),\"\",F37/G37)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F37=\"\",G37=\"\",G37=0),\"\",F37/G37)",
+          "cached_result": 7.8904243281471
+        },
+        {
+          "cell": "A38",
+          "row": 38,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Стик для шеи Sadoer фиолетовый",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B38",
+          "row": 38,
+          "column": 2,
+          "column_letter": "B",
+          "value": "OZN5894678582",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C38",
+          "row": 38,
+          "column": 3,
+          "column_letter": "C",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D38",
+          "row": 38,
+          "column": 4,
+          "column_letter": "D",
+          "value": 32,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E38",
+          "row": 38,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C38=\"\",D38=\"\",D38=0),\"\",C38/D38)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C38=\"\",D38=\"\",D38=0),\"\",C38/D38)",
+          "cached_result": 0
+        },
+        {
+          "cell": "F38",
+          "row": 38,
+          "column": 6,
+          "column_letter": "F",
+          "value": 143.17,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G38",
+          "row": 38,
+          "column": 7,
+          "column_letter": "G",
+          "value": 32,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H38",
+          "row": 38,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F38=\"\",G38=\"\",G38=0),\"\",F38/G38)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F38=\"\",G38=\"\",G38=0),\"\",F38/G38)",
+          "cached_result": 4.4740625
+        },
+        {
+          "cell": "I38",
+          "row": 38,
+          "column": 9,
+          "column_letter": "I",
+          "value": "новая- внеси позже",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A39",
+          "row": 39,
+          "column": 1,
+          "column_letter": "A",
+          "value": "=IF('UNIT по товарам'!B13=\"\",\"\",'UNIT по товарам'!B13)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!B13=\"\",\"\",'UNIT по товарам'!B13)",
+          "cached_result": "Тушь Еnergizer"
+        },
+        {
+          "cell": "B39",
+          "row": 39,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=IF('UNIT по товарам'!C13=\"\",\"\",'UNIT по товарам'!C13)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!C13=\"\",\"\",'UNIT по товарам'!C13)",
+          "cached_result": "OZN5691715887"
+        },
+        {
+          "cell": "C39",
+          "row": 39,
+          "column": 3,
+          "column_letter": "C",
+          "value": 52,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D39",
+          "row": 39,
+          "column": 4,
+          "column_letter": "D",
+          "value": 499,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E39",
+          "row": 39,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C39=\"\",D39=\"\",D39=0),\"\",C39/D39)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C39=\"\",D39=\"\",D39=0),\"\",C39/D39)",
+          "cached_result": 0.10420841683366733
+        },
+        {
+          "cell": "F39",
+          "row": 39,
+          "column": 6,
+          "column_letter": "F",
+          "value": 3169.34,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G39",
+          "row": 39,
+          "column": 7,
+          "column_letter": "G",
+          "value": 499,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H39",
+          "row": 39,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F39=\"\",G39=\"\",G39=0),\"\",F39/G39)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F39=\"\",G39=\"\",G39=0),\"\",F39/G39)",
+          "cached_result": 6.351382765531063
+        },
+        {
+          "cell": "A40",
+          "row": 40,
+          "column": 1,
+          "column_letter": "A",
+          "value": "=IF('UNIT по товарам'!B14=\"\",\"\",'UNIT по товарам'!B14)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!B14=\"\",\"\",'UNIT по товарам'!B14)",
+          "cached_result": "Мазь от геморроя зеленая"
+        },
+        {
+          "cell": "B40",
+          "row": 40,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=IF('UNIT по товарам'!C14=\"\",\"\",'UNIT по товарам'!C14)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!C14=\"\",\"\",'UNIT по товарам'!C14)",
+          "cached_result": "OZN5716237224"
+        },
+        {
+          "cell": "C40",
+          "row": 40,
+          "column": 3,
+          "column_letter": "C",
+          "value": 20,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "D40",
+          "row": 40,
+          "column": 4,
+          "column_letter": "D",
+          "value": 195,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "E40",
+          "row": 40,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C40=\"\",D40=\"\",D40=0),\"\",C40/D40)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C40=\"\",D40=\"\",D40=0),\"\",C40/D40)",
+          "cached_result": 0.10256410256410256
+        },
+        {
+          "cell": "F40",
+          "row": 40,
+          "column": 6,
+          "column_letter": "F",
+          "value": 1405.17,
+          "data_type": "n",
+          "number_format": "#,##0.00\" ₽\""
+        },
+        {
+          "cell": "G40",
+          "row": 40,
+          "column": 7,
+          "column_letter": "G",
+          "value": 195,
+          "data_type": "n",
+          "number_format": "#,##0"
+        },
+        {
+          "cell": "H40",
+          "row": 40,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F40=\"\",G40=\"\",G40=0),\"\",F40/G40)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F40=\"\",G40=\"\",G40=0),\"\",F40/G40)",
+          "cached_result": 7.206
+        },
+        {
+          "cell": "A41",
+          "row": 41,
+          "column": 1,
+          "column_letter": "A",
+          "value": "=IF('UNIT по товарам'!B15=\"\",\"\",'UNIT по товарам'!B15)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!B15=\"\",\"\",'UNIT по товарам'!B15)",
+          "cached_result": null
+        },
+        {
+          "cell": "B41",
+          "row": 41,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=IF('UNIT по товарам'!C15=\"\",\"\",'UNIT по товарам'!C15)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!C15=\"\",\"\",'UNIT по товарам'!C15)",
+          "cached_result": null
+        },
+        {
+          "cell": "E41",
+          "row": 41,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C41=\"\",D41=\"\",D41=0),\"\",C41/D41)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C41=\"\",D41=\"\",D41=0),\"\",C41/D41)",
+          "cached_result": null
+        },
+        {
+          "cell": "H41",
+          "row": 41,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F41=\"\",G41=\"\",G41=0),\"\",F41/G41)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F41=\"\",G41=\"\",G41=0),\"\",F41/G41)",
+          "cached_result": null
+        },
+        {
+          "cell": "A42",
+          "row": 42,
+          "column": 1,
+          "column_letter": "A",
+          "value": "=IF('UNIT по товарам'!B16=\"\",\"\",'UNIT по товарам'!B16)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!B16=\"\",\"\",'UNIT по товарам'!B16)",
+          "cached_result": null
+        },
+        {
+          "cell": "B42",
+          "row": 42,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=IF('UNIT по товарам'!C16=\"\",\"\",'UNIT по товарам'!C16)",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=IF('UNIT по товарам'!C16=\"\",\"\",'UNIT по товарам'!C16)",
+          "cached_result": null
+        },
+        {
+          "cell": "E42",
+          "row": 42,
+          "column": 5,
+          "column_letter": "E",
+          "value": "=IF(OR(C42=\"\",D42=\"\",D42=0),\"\",C42/D42)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(C42=\"\",D42=\"\",D42=0),\"\",C42/D42)",
+          "cached_result": null
+        },
+        {
+          "cell": "H42",
+          "row": 42,
+          "column": 8,
+          "column_letter": "H",
+          "value": "=IF(OR(F42=\"\",G42=\"\",G42=0),\"\",F42/G42)",
+          "data_type": "f",
+          "number_format": "#,##0.00\" ₽\"",
+          "formula": "=IF(OR(F42=\"\",G42=\"\",G42=0),\"\",F42/G42)",
+          "cached_result": null
+        },
+        {
+          "cell": "A44",
+          "row": 44,
+          "column": 1,
+          "column_letter": "A",
+          "value": "⚠️  Синие ячейки (руб, кол-во) — вносите вручную по каждому товару. Расход/ед считается автоматически и подтягивается в лист «UNIT по товарам» (столбцы ДДВ и ЛП) по Артикулу. Сейчас в качестве стартовых значений подставлен прежний общий тариф (кол-во = 1) — замените на реальные руб/кол-во по каждому товару, чтобы получить точный расход на единицу. Пустая строка = расход 0.",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A46",
+          "row": 46,
+          "column": 1,
+          "column_letter": "A",
+          "value": "▌ КОМИССИЯ OZON ПО ПЕРИОДАМ (с 31.07.2026) — категория «Красота и гигиена»",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A47",
+          "row": 47,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Период",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B47",
+          "row": 47,
+          "column": 2,
+          "column_letter": "B",
+          "value": "Дата начала",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "C47",
+          "row": 47,
+          "column": 3,
+          "column_letter": "C",
+          "value": "До 300 ₽,\nбаза комиссии",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "D47",
+          "row": 47,
+          "column": 4,
+          "column_letter": "D",
+          "value": "Свыше 300 ₽,\nбаза комиссии",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "E47",
+          "row": 47,
+          "column": 5,
+          "column_letter": "E",
+          "value": "Скидка за локальную\nпродажу, п.п.",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "F47",
+          "row": 47,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Скидка НЕ действует\nв Москве/СПб/Беларуси?",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A48",
+          "row": 48,
+          "column": 1,
+          "column_letter": "A",
+          "value": "До 31.07.2026 (текущие условия)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B48",
+          "row": 48,
+          "column": 2,
+          "column_letter": "B",
+          "value": "2000-01-01T00:00:00",
+          "data_type": "d",
+          "number_format": "dd\\.mm\\.yyyy"
+        },
+        {
+          "cell": "C48",
+          "row": 48,
+          "column": 3,
+          "column_letter": "C",
+          "value": "=Тарифы!$B$19",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=Тарифы!$B$19",
+          "cached_result": 0.2
+        },
+        {
+          "cell": "D48",
+          "row": 48,
+          "column": 4,
+          "column_letter": "D",
+          "value": "=Тарифы!$B$26",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=Тарифы!$B$26",
+          "cached_result": 0.41
+        },
+        {
+          "cell": "E48",
+          "row": 48,
+          "column": 5,
+          "column_letter": "E",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "F48",
+          "row": 48,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Нет",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A49",
+          "row": 49,
+          "column": 1,
+          "column_letter": "A",
+          "value": "31.07 – 27.08.2026",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B49",
+          "row": 49,
+          "column": 2,
+          "column_letter": "B",
+          "value": "2026-07-31T00:00:00",
+          "data_type": "d",
+          "number_format": "dd\\.mm\\.yyyy"
+        },
+        {
+          "cell": "C49",
+          "row": 49,
+          "column": 3,
+          "column_letter": "C",
+          "value": 0.26,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "D49",
+          "row": 49,
+          "column": 4,
+          "column_letter": "D",
+          "value": 0.47,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "E49",
+          "row": 49,
+          "column": 5,
+          "column_letter": "E",
+          "value": 0.06,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "F49",
+          "row": 49,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Нет",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A50",
+          "row": 50,
+          "column": 1,
+          "column_letter": "A",
+          "value": "28.08 – 29.08.2026",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B50",
+          "row": 50,
+          "column": 2,
+          "column_letter": "B",
+          "value": "2026-08-28T00:00:00",
+          "data_type": "d",
+          "number_format": "dd\\.mm\\.yyyy"
+        },
+        {
+          "cell": "C50",
+          "row": 50,
+          "column": 3,
+          "column_letter": "C",
+          "value": 0.23,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "D50",
+          "row": 50,
+          "column": 4,
+          "column_letter": "D",
+          "value": 0.52,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "E50",
+          "row": 50,
+          "column": 5,
+          "column_letter": "E",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "F50",
+          "row": 50,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Нет",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A51",
+          "row": 51,
+          "column": 1,
+          "column_letter": "A",
+          "value": "С 30.08.2026",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B51",
+          "row": 51,
+          "column": 2,
+          "column_letter": "B",
+          "value": "2026-08-30T00:00:00",
+          "data_type": "d",
+          "number_format": "dd\\.mm\\.yyyy"
+        },
+        {
+          "cell": "C51",
+          "row": 51,
+          "column": 3,
+          "column_letter": "C",
+          "value": 0.23,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "D51",
+          "row": 51,
+          "column": 4,
+          "column_letter": "D",
+          "value": 0.52,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "E51",
+          "row": 51,
+          "column": 5,
+          "column_letter": "E",
+          "value": 0,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "F51",
+          "row": 51,
+          "column": 6,
+          "column_letter": "F",
+          "value": "Нет",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A53",
+          "row": 53,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Дата расчёта (можно менять для сценариев)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B53",
+          "row": 53,
+          "column": 2,
+          "column_letter": "B",
+          "value": "2026-08-28T00:00:00",
+          "data_type": "d",
+          "number_format": "dd\\.mm\\.yyyy"
+        },
+        {
+          "cell": "C53",
+          "row": 53,
+          "column": 3,
+          "column_letter": "C",
+          "value": "ДАТУ ВНОСИТЬ ТЕКУЩУЮ -ДЛЯ КОРРЕКТНОГО ПЕРЕСЧЕТА ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A54",
+          "row": 54,
+          "column": 1,
+          "column_letter": "A",
+          "value": "До 300 ₽, база на дату расчёта",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B54",
+          "row": 54,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=INDEX($C$48:$C$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=INDEX($C$48:$C$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "cached_result": 0.23
+        },
+        {
+          "cell": "A55",
+          "row": 55,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Свыше 300 ₽, база на дату расчёта",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B55",
+          "row": 55,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=INDEX($D$48:$D$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=INDEX($D$48:$D$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "cached_result": 0.52
+        },
+        {
+          "cell": "A56",
+          "row": 56,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Скидка за локальную продажу, п.п., на дату расчёта",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B56",
+          "row": 56,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=INDEX($E$48:$E$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=INDEX($E$48:$E$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "cached_result": 0
+        },
+        {
+          "cell": "A57",
+          "row": 57,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Скидка НЕ действует в Москве/СПб/Беларуси? (на дату расчёта)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B57",
+          "row": 57,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=INDEX($F$48:$F$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "data_type": "f",
+          "number_format": "General",
+          "formula": "=INDEX($F$48:$F$51,MATCH(IF($B$53=\"\",TODAY(),$B$53),$B$48:$B$51,1))",
+          "cached_result": "Нет"
+        },
+        {
+          "cell": "A60",
+          "row": 60,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Доля локальных продаж, % от всех продаж",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B60",
+          "row": 60,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.739914918585888,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "C60",
+          "row": 60,
+          "column": 3,
+          "column_letter": "C",
+          "value": "СМОТРЕТЬ В РАЗДЕЛЕ АНАЛИТИКА - ЛОКАЛЬНОСТЬ ПРОДАЖ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A61",
+          "row": 61,
+          "column": 1,
+          "column_letter": "A",
+          "value": "…из них доля в кластерах Москва/МО/ДР, СПб/СЗО, Беларусь, % от всех продаж",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B61",
+          "row": 61,
+          "column": 2,
+          "column_letter": "B",
+          "value": 0.227299398562418,
+          "data_type": "n",
+          "number_format": "0.0%"
+        },
+        {
+          "cell": "C61",
+          "row": 61,
+          "column": 3,
+          "column_letter": "C",
+          "value": "B61(ячейка , как считать ) = (Локальные заказы в СПб/СЗО + Локальные заказы в Москве/МО/ДР + Локальные заказы в Беларуси)/кол-во заказов общее \nСмотреть так же : локальность продаж , фильтр по кластерам - плюсуем кол-во в МСК+СПБ+Беларусь\n       ",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "A63",
+          "row": 63,
+          "column": 1,
+          "column_letter": "A",
+          "value": "Эффективная скидка на комиссию, п.п. (в среднем по вашим продажам)",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B63",
+          "row": 63,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=IF($B$57=\"Да\",$B$56*($B$60-$B$61),$B$56*$B$60)",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=IF($B$57=\"Да\",$B$56*($B$60-$B$61),$B$56*$B$60)",
+          "cached_result": 0
+        },
+        {
+          "cell": "A64",
+          "row": 64,
+          "column": 1,
+          "column_letter": "A",
+          "value": "ИТОГОВАЯ комиссия «до 300 ₽», %",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B64",
+          "row": 64,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=$B$54-$B$63",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=$B$54-$B$63",
+          "cached_result": 0.23
+        },
+        {
+          "cell": "A65",
+          "row": 65,
+          "column": 1,
+          "column_letter": "A",
+          "value": "ИТОГОВАЯ комиссия «свыше 300 ₽», %",
+          "data_type": "s",
+          "number_format": "General"
+        },
+        {
+          "cell": "B65",
+          "row": 65,
+          "column": 2,
+          "column_letter": "B",
+          "value": "=$B$55-$B$63",
+          "data_type": "f",
+          "number_format": "0.0%",
+          "formula": "=$B$55-$B$63",
+          "cached_result": 0.52
+        },
+        {
+          "cell": "A67",
+          "row": 67,
+          "column": 1,
+          "column_letter": "A",
+          "value": "⚠️  Заполните синие ячейки B60 и B61 (доля локальных продаж), когда узнаете реальную раскладку по кластерам — сейчас они пустые (= 0%), поэтому «Итоговая комиссия» пока равна базовой ставке без скидки. B53 = дата, на которую считается экономика (по умолчанию — сегодня); меняйте её, чтобы посмотреть экономику на другую дату/период.",
+          "data_type": "s",
+          "number_format": "General"
+        }
+      ]
+    }
+  ]
+}

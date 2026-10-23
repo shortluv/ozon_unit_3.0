@@ -1,0 +1,6 @@
+{
+  "name": "Калькулятор юнит-экономики Ozon",
+  "description": "Профессиональный калькулятор юнит-экономики, аналитика Excel и автоматическая синхронизация с Ozon Seller API",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
